@@ -1,1 +1,1 @@
-# Grafana Faro: RUM with OpenTelemetry for React Apps
+# 🔭 Grafana Faro: RUM with OpenTelemetry for React Apps ⚛️
