@@ -10,7 +10,7 @@ export function Topics() {
         justifyContent="center"
         alignItems="flex-start"
       >
-        <Heading>Agenda</Heading>
+        <Heading fontSize="64px">Agenda</Heading>
       </FlexBox>
     </Slide>
   )

@@ -10,7 +10,7 @@ export function WhoAreUs() {
         justifyContent="center"
         alignItems="flex-start"
       >
-        <Heading>Who are us</Heading>
+        <Heading fontSize="64px">Who are us</Heading>
       </FlexBox>
     </Slide>
   )
