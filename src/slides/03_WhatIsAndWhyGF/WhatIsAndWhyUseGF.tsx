@@ -1,6 +1,6 @@
 import { FlexBox, Heading, Slide } from 'spectacle'
 import Back from '../../assets/images/back.png'
-export function WhoAreUs() {
+export function WhatIsAndWhyUseGF() {
   return (
     <Slide backgroundImage={`url(${Back})`}>
       <FlexBox
@@ -10,7 +10,7 @@ export function WhoAreUs() {
         justifyContent="center"
         alignItems="flex-start"
       >
-        <Heading fontSize="64px">¿Quienes somos nosotros?</Heading>
+        <Heading fontSize="64px">¿Qué es y por qué usar Grafana Faro?</Heading>
       </FlexBox>
     </Slide>
   )
