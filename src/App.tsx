@@ -26,7 +26,7 @@ const theme = {
 
 function App() {
   return (
-    <Deck template={<DefaultTemplate />} theme={theme}>
+    <Deck template={<DefaultTemplate color="#3F3F3F" />} theme={theme}>
       <TitleSlide />
       <WhoAreUs />
       <AndresReyes />
