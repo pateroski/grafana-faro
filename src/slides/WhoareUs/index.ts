@@ -1,1 +1,0 @@
-export { WhoAreUs } from './WhoAreUs';
