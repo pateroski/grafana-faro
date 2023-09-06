@@ -3,7 +3,8 @@ import { Deck, DefaultTemplate } from 'spectacle'
 import './index.css'
 import { TitleSlide } from './slides/00_TitleSlide'
 import { WhoAreUs, AndresReyes, FrankGonzalez } from './slides/01_WhoAreUs'
-import { Topics } from './slides/02_Topics'
+import { TopicList, Topics } from './slides/02_Topics'
+import { WhatIsAndWhyUseGF } from './slides/03_WhatIsAndWhyGF'
 
 const theme = {
   colors: {
@@ -31,6 +32,8 @@ function App() {
       <AndresReyes />
       <FrankGonzalez />
       <Topics />
+      <TopicList />
+      <WhatIsAndWhyUseGF />
     </Deck>
   )
 }
