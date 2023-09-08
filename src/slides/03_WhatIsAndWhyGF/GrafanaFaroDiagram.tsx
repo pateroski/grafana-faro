@@ -10,7 +10,7 @@ export function GrafanaFaroDiagram() {
         height="100%"
         flexDirection="column"
         justifyContent="flex-start"
-        alignItems="center"
+        alignItems="flex-start"
       >
         <Heading fontSize="48px">¿Qué es Grafana Faro?</Heading>
         <Image src={GrafanaFaroOssDiagram}></Image>

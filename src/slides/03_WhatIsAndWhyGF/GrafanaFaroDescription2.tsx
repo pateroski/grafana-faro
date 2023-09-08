@@ -8,9 +8,9 @@ export function GrafanaFaroDescription2() {
       quoteProps={{ fontSize: '40px' }}
       backgroundImage={`url(${Back})`}
     >
-      Un proyecto para la observabilidad de aplicaciones frontend, altamente configurable para el
-      monitoreo de usuarios reales (RUM). La telemetría del frontend se puede correlacionar con los
-      datos de backend e infraestructura para una observabilidad perfecta de la pila completa
+      Un proyecto para la observabilidad de aplicaciones frontend, altamente configurable que
+      permite el monitoreo de usuarios reales (RUM). Dicha telemetría se puede correlacionar con los
+      datos de backend e infraestructura para la observabilidad de la pila completa
       <Notes>
         <li>¿Qué es Grafana Faro?</li>
       </Notes>
