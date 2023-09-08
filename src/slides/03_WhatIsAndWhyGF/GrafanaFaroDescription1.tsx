@@ -11,9 +11,6 @@ export function GrafanaFaroDescription1() {
       Una solución sencilla y con muchas herramientas para instrumentar las aplicaciones web. Nos
       permite visualizar el rendimiento de la aplicación, así como obtener un flujo de errores y
       excepciones en tiempo real
-      <Notes>
-        <li>¿Qué es Grafana Faro?</li>
-      </Notes>
     </SlideLayout.Quote>
   )
 }

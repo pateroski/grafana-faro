@@ -32,8 +32,8 @@ export function GrafanaFaroDescription3() {
         </li>
         <li>Grafana Faro es una solución que se basa en parte de esta pila de observabilidad.</li>
         <li>
-          De hecho a la pila compuesta por Loki, Tempo, Mimir, Grafana y Grafana Cloud, lo que se
-          conoce le conoce como pila LGTM y es precisamente en la que se basa Grafana Faro
+          De hecho a la pila compuesta por Loki, Tempo, Mimir, Grafana y Grafana Cloud se le conoce
+          como pila LGTM y es precisamente en la que se basa Grafana Faro
         </li>
       </Notes>
     </Slide>

@@ -16,7 +16,19 @@ export function GrafanaFaroDiagram() {
         <Image src={GrafanaFaroOssDiagram}></Image>
       </FlexBox>
       <Notes>
-        <li>¿Qué es Grafana Faro?</li>
+        <li>
+          Faro es un proyecto que nos permite recoger automáticamente logs, métricas de performance,
+          eventos y trazas y almacenarlos en Loki y en Tempo para posteriormente visualizarlos en
+          Grafana, donde ya podrías tener otras fuentes de datos de observabilidad que proceda del
+          backend o de la infraestructura y que te permitan correlar la información
+        </li>
+        <li>
+          El flujo es siempre en la misma dirección: - Una vez integrado Grafana Faro Web SDK es
+          nuestra aplicación, éste comienza a recoger y a enviar toda la información al recolector,
+          que en nuestro caso, es gestionado por Grafana Cloud - El recolector se encarga de enviar
+          la información a Loki y Tempo para su almacenamiento y posterior consulta - Por último,
+          Grafana se encarga de la visualización de los datos de la monitorización real de usuarios
+        </li>
       </Notes>
     </Slide>
   )
