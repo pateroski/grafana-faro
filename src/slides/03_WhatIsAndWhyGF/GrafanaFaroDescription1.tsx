@@ -1,4 +1,4 @@
-import { Notes, SlideLayout } from 'spectacle'
+import { SlideLayout } from 'spectacle'
 import Back from '../../assets/images/back.png'
 
 export function GrafanaFaroDescription1() {
