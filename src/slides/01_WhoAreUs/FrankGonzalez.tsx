@@ -21,7 +21,6 @@ export function FrankGonzalez() {
         'Twitter: FrankGlezhdez',
         'Github: caox2110',
       ]}
-      animateListItems
     ></SlideLayout.VerticalImage>
   )
 }

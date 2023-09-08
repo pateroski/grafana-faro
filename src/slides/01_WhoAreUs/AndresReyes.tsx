@@ -21,7 +21,6 @@ export function AndresReyes() {
         'Twitter: pateroski',
         'Github: pateroski',
       ]}
-      animateListItems
     ></SlideLayout.VerticalImage>
   )
 }
