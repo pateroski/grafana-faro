@@ -1,7 +1,7 @@
 import { Deck, DefaultTemplate } from 'spectacle'
 
 import './index.css'
-import { TitleSlide } from './slides/00_TitleSlide'
+import { ThanksTo, TitleSlide } from './slides/00_TitleSlide'
 import { WhoAreUs, AndresReyes, FrankGonzalez } from './slides/01_WhoAreUs'
 import { TopicList, Topics } from './slides/02_Topics'
 import { WhatIsAndWhyUseGF, GrafanaFaroDiagram } from './slides/03_WhatIsAndWhyGF'
@@ -28,6 +28,7 @@ function App() {
   return (
     <Deck template={<DefaultTemplate color="#3F3F3F" />} theme={theme}>
       <TitleSlide />
+      <ThanksTo />
       <WhoAreUs />
       <FrankGonzalez />
       <AndresReyes />
