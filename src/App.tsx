@@ -4,7 +4,12 @@ import './index.css'
 import { ThanksTo, TitleSlide } from './slides/00_TitleSlide'
 import { WhoAreUs, AndresReyes, FrankGonzalez } from './slides/01_WhoAreUs'
 import { TopicList, Topics } from './slides/02_Topics'
-import { WhatIsGF, GrafanaFaroDiagram } from './slides/03_WhatIsAndWhyGF'
+import {
+  WhatIsGFSection,
+  GrafanaFaroDiagram,
+  GrafanaFaroDescription1,
+  GrafanaFaroDescription2,
+} from './slides/03_WhatIsAndWhyGF'
 
 const theme = {
   colors: {
@@ -34,7 +39,10 @@ function App() {
       <AndresReyes />
       <Topics />
       <TopicList />
-      <WhatIsGF />
+      <WhatIsGFSection />
+      <GrafanaFaroDescription1 />
+      <GrafanaFaroDescription2 />
+
       <GrafanaFaroDiagram />
     </Deck>
   )
