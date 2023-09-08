@@ -13,6 +13,7 @@ import {
   WhyGFSection,
   GrafanaFaroDescription4,
   GrafanaFaroDescription5,
+  GrafanaFaroDescription6,
 } from './slides/03_WhatIsAndWhyGF'
 
 const theme = {
@@ -51,6 +52,7 @@ function App() {
       <WhyGFSection />
       <GrafanaFaroDescription4 />
       <GrafanaFaroDescription5 />
+      <GrafanaFaroDescription6 />
     </Deck>
   )
 }

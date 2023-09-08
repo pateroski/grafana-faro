@@ -2,7 +2,7 @@ import { FlexBox, Heading, ListItem, Notes, Slide, Text, UnorderedList } from 's
 
 import Back from '../../assets/images/back.png'
 
-export function GrafanaFaroDescription5() {
+export function GrafanaFaroDescription6() {
   return (
     <Slide backgroundImage={`url(${Back})`}>
       <FlexBox
@@ -25,23 +25,21 @@ export function GrafanaFaroDescription5() {
         >
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              📈
+              💨
             </Text>
-            <Text textAlign="center">Complejidad de las aplicaciones frontend ha incrementado</Text>
+            <Text textAlign="center">Muy fácil y rápida integración con ⚛️</Text>
           </ListItem>
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              🫥
+              🔝
             </Text>
-            <Text textAlign="center">Entorno en el que se ejecutan los navegadores aislado</Text>
+            <Text textAlign="center">Uso de OpenTelemetry para la captura de trazas</Text>
           </ListItem>
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              🗣️
+              💆🏻‍♂️
             </Text>
-            <Text textAlign="center">
-              El feedback por parte de los usuarios a veces no es posible
-            </Text>
+            <Text textAlign="center">Instrumentación automática y manual</Text>
           </ListItem>
         </UnorderedList>
       </FlexBox>
