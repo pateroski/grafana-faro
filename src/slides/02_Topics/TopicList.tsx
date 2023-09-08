@@ -16,7 +16,7 @@ export function TopicList() {
           <ListItem>¿Qué es y por qué usar Grafana Faro?</ListItem>
           <ListItem>Grafana Faro 101</ListItem>
           <UnorderedList>
-            <ListItem color="secondary">¿Cómo está construido Grafana Faro?</ListItem>
+            <ListItem color="secondary">¿Qué ofrece Grafana Faro Web SDK?</ListItem>
             <ListItem color="secondary">¿Qué le ofrece Grafana Faro a JavaScript?</ListItem>
           </UnorderedList>
           <ListItem>Grafana Faro y React</ListItem>

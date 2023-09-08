@@ -44,21 +44,9 @@ export function GrafanaFaroDescription6() {
         </UnorderedList>
       </FlexBox>
       <Notes>
-        <li>
-          Las aplicaciones de frontend ya no son simples páginas web, son aplicaciones complejas que
-          tienen un montón de componentes web y que interactúan con un montón de servicios, y por
-          tanto, necesita de un proceso que le permita optimizarse
-        </li>
-        <li>
-          Los navegadores en los que se ejecutan nuestras aplicaciones son entornos aislados y por
-          tanto, no tenemos forma de saber si el usuario está teniendo errores o directamente es que
-          no está teniendo un mal desempeño
-        </li>
-        <li>
-          A nosotros nos pasa que tenemos agentes que están en el call center y aún mandándote un
-          video, no es suficiente para entender qué está pasando, porque realmente lo que
-          necesitamos es la información técnica suficiente para poder discernir cual es el problema
-        </li>
+        <li></li>
+        <li></li>
+        <li></li>
       </Notes>
     </Slide>
   )
