@@ -1,5 +1,11 @@
-import { FlexBox, Heading, ListItem, Slide, Text, UnorderedList } from 'spectacle'
+import { FlexBox, Heading, Image, ListItem, Slide, Text, UnorderedList } from 'spectacle'
 import Back from '../../assets/images/back.png'
+import Errors from '../../assets/icons/errors.svg'
+import Metrics from '../../assets/icons/metrics.svg'
+import Logs from '../../assets/icons/logs.svg'
+import UserActivity from '../../assets/icons/userActivity.svg'
+import OpenTelemetryLogo from '../../assets/images/OpenTelemetryLogo.png'
+
 export function WhatIsGFSDK1() {
   return (
     <Slide backgroundImage={`url(${Back})`}>
@@ -11,7 +17,7 @@ export function WhatIsGFSDK1() {
         alignItems="flex-start"
       >
         <Heading
-          fontSize="48px"
+          fontSize="64px"
           style={{
             marginBottom: '0',
           }}
@@ -29,23 +35,38 @@ export function WhatIsGFSDK1() {
               padding: '0',
             }}
           >
-            <ListItem>
-              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                💨
-              </Text>
-              <Text textAlign="center">Muy fácil y rápida integración con ⚛️</Text>
+            <ListItem
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <Image src={Errors} width="64px" />
+              <Text textAlign="center">Tracking de errores automático</Text>
             </ListItem>
-            <ListItem>
-              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                🔝
-              </Text>
-              <Text textAlign="center">Uso de OpenTelemetry para la captura de trazas</Text>
+            <ListItem
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <Image src={Metrics} width="64px" />
+              <Text textAlign="center">Monitorización Web Performance (CWV)</Text>
             </ListItem>
-            <ListItem>
-              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                💆🏻‍♂️
-              </Text>
-              <Text textAlign="center">Instrumentación automática y manual</Text>
+            <ListItem
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <Image src={OpenTelemetryLogo} width="64px" />
+              <Text textAlign="center">Trazas de la pila completa con OpenTelemetry</Text>
             </ListItem>
           </UnorderedList>
         </FlexBox>
@@ -54,29 +75,33 @@ export function WhatIsGFSDK1() {
             style={{
               display: 'flex',
               listStyle: 'none',
-              justifyContent: 'center',
+              justifyContent: 'space-between',
               alignItems: 'center',
               margin: '0',
               padding: '0',
             }}
           >
-            <ListItem>
-              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                💨
-              </Text>
-              <Text textAlign="center">Muy fácil y rápida integración con ⚛️</Text>
+            <ListItem
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <Image src={Logs} width="64px" />
+              <Text textAlign="center">Logs de consola para mayor contexto</Text>
             </ListItem>
-            <ListItem>
-              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                🔝
-              </Text>
-              <Text textAlign="center">Uso de OpenTelemetry para la captura de trazas</Text>
-            </ListItem>
-            <ListItem>
-              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                💆🏻‍♂️
-              </Text>
-              <Text textAlign="center">Instrumentación automática y manual</Text>
+            <ListItem
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <Image src={UserActivity} width="64px" />
+              <Text textAlign="center">Tracking de la actividad del usuario</Text>
             </ListItem>
           </UnorderedList>
         </FlexBox>
