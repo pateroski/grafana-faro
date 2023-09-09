@@ -22,6 +22,7 @@ import {
   ReactAsPowerFullTool,
   FaroReactPackage,
   GFRFeatureErrorBoundaries,
+  GFRFeatureComponentProfiler,
 } from './slides/XX_01_GrafanaAndReact'
 
 const theme = {
@@ -69,6 +70,7 @@ function App() {
       <ReactAsPowerFullTool />
       <FaroReactPackage />
       <GFRFeatureErrorBoundaries />
+      <GFRFeatureComponentProfiler />
     </Deck>
   )
 }
