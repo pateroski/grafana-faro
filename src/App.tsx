@@ -25,6 +25,10 @@ import {
   GFRFeatureComponentProfiler,
   GFRFeatureFaroRoutes,
 } from './slides/XX_01_GrafanaAndReact'
+import {
+  HowWeImplementGrafanaAndReactSection,
+  GFRInitialize,
+} from './slides/XX_02_HowWeImplementGrafanaAndReact'
 
 const theme = {
   colors: {
@@ -73,6 +77,8 @@ function App() {
       <GFRFeatureErrorBoundaries />
       <GFRFeatureComponentProfiler />
       <GFRFeatureFaroRoutes />
+      <HowWeImplementGrafanaAndReactSection />
+      <GFRInitialize />
     </Deck>
   )
 }
