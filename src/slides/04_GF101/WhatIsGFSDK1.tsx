@@ -1,4 +1,4 @@
-import { FlexBox, Heading, Image, ListItem, Slide, Text, UnorderedList } from 'spectacle'
+import { FlexBox, Heading, Image, ListItem, Notes, Slide, Text, UnorderedList } from 'spectacle'
 import Back from '../../assets/images/back.png'
 import Errors from '../../assets/icons/errors.svg'
 import Metrics from '../../assets/icons/metrics.svg'
@@ -106,6 +106,34 @@ export function WhatIsGFSDK1() {
           </UnorderedList>
         </FlexBox>
       </FlexBox>
+      <Notes>
+        <li>
+          Automáticamente captura errores que no están controlados así como promesas que han sido
+          fallidas y te manda el stack completo del error para que posteriormente se pueda analizar
+          el contexto en el que ha sucedido
+        </li>
+        <li>
+          Existen una serie de métricas que se denominan (Core Web Vitals) que son las que Google ha
+          definido como métricas sobre las que se percibe una buena experiencia de usuario. Bueno,
+          pues Grafana Faro te permite monitorizarlas y ver cómo se comporta tu aplicación en base a
+          estas métricas
+        </li>
+        <li>
+          OpenTelemetry nos va a permitir alcanzar la granularidad que deseemos en cuanto a qué
+          traceamos y con qué lo relacionamos dentro de los eventos que se producen en el frontend.
+          Aunque ya de manera automática provee mucha información sin que agreguemos nada, lo cual
+          es maravilloso
+        </li>
+        <li>
+          Te permite hacer uso de la api window.console para poder capturar los logs que se
+          consideren relevantes de cara a obtener el contexto en el que se está produciendo un
+          evento en particular
+        </li>
+        <li>
+          Y sí, te permite ver por id de sesión qué es lo que ha realizado ese usuario desde que
+          comenzó a envíar trazas al colector
+        </li>
+      </Notes>
     </Slide>
   )
 }
