@@ -13,7 +13,7 @@ export function FrankGonzalez() {
       title="Frank González Hernández"
       titleProps={{ fontSize: '48px' }}
       listItems={[
-        '🧑🏻‍🎓: Ingeniero Informática desde 2017',
+        '🧑🏻‍🎓: Ingeniero Informática desde 2014',
         '🏁: Full-Stack Developer con afición por el Frontend',
         '🤝🏻: Consultor en Amaris para Amaris, SGS, GTT y Grupo MasMovil',
         '💪🏼: Senior Frontend Developer en Grupo MásMóvil desde finales 2021',
