@@ -15,7 +15,7 @@ import {
   GrafanaFaroDescription5,
   GrafanaFaroDescription6,
 } from './slides/03_WhatIsAndWhyGF'
-import { GrafanaFaro101Section, WhatIsGFSDKSection } from './slides/04_GF101'
+import { GrafanaFaro101Section, WhatIsGFSDK1, WhatIsGFSDKSection } from './slides/04_GF101'
 
 const theme = {
   colors: {
@@ -56,6 +56,7 @@ function App() {
       <GrafanaFaroDescription6 />
       <GrafanaFaro101Section />
       <WhatIsGFSDKSection />
+      <WhatIsGFSDK1 />
     </Deck>
   )
 }

@@ -44,9 +44,21 @@ export function GrafanaFaroDescription6() {
         </UnorderedList>
       </FlexBox>
       <Notes>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>
+          Apenas unas líneas de código que nos permita inicializar el colector de datos de Grafana
+          Cloud y ya comienza a recolectar mucha información de manera automática
+        </li>
+        <li>
+          Cuando hablamos de los User Journeys o de las trazas de los usuarios, Grafana Faro utiliza
+          OpenTelemetry para la captura de trazas, que es un estándar de la Cloud Native Computing
+          Foundation Esto nos va a permitir poder realizar trazas custom y que sean exportables a
+          otro sistemas de monitorización como Jaeger
+        </li>
+        <li>
+          Permite extender la instrumentación que hay de manera automática, para poder agregar y
+          extenderla de forma manual, para lo mismo, para poder adaptar la naturaleza de la fuente
+          de datos que proveemos al colector y observar lo que consideremos relevante
+        </li>
       </Notes>
     </Slide>
   )
