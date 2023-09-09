@@ -1,6 +1,6 @@
 import { FlexBox, Heading, Image, Notes, Slide } from 'spectacle'
 import Back from '../../assets/images/back.png'
-import GrafanaFaroOssDiagram from '../../assets/images/GrafanaOssFaroDiagram.svg'
+import GrafanaFaroOssDiagram from '../../assets/images/GrafanaOssFaroDiagram.png'
 
 export function GrafanaFaroDiagram() {
   return (
