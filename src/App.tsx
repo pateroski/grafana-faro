@@ -23,6 +23,7 @@ import {
   FaroReactPackage,
   GFRFeatureErrorBoundaries,
   GFRFeatureComponentProfiler,
+  GFRFeatureFaroRoutes,
 } from './slides/XX_01_GrafanaAndReact'
 
 const theme = {
@@ -71,6 +72,7 @@ function App() {
       <FaroReactPackage />
       <GFRFeatureErrorBoundaries />
       <GFRFeatureComponentProfiler />
+      <GFRFeatureFaroRoutes />
     </Deck>
   )
 }
