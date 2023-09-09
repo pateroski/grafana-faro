@@ -16,7 +16,7 @@ import {
   GrafanaFaroDescription6,
 } from './slides/03_WhatIsAndWhyGF'
 import { GrafanaFaro101Section, WhatIsGFSDK1, WhatIsGFSDKSection } from './slides/04_GF101'
-import { GrafanaAndReactSection, WhyReact } from './slides/XX_01_GrafanaAndReact'
+import { GrafanaAndReactSection, WhyReact, ReactAsPowerFullTool } from './slides/XX_01_GrafanaAndReact'
 
 const theme = {
   colors: {
@@ -60,6 +60,7 @@ function App() {
       <WhatIsGFSDK1 />
       <GrafanaAndReactSection />
       <WhyReact />
+      <ReactAsPowerFullTool />
     </Deck>
   )
 }
