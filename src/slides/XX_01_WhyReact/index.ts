@@ -1,1 +1,0 @@
-export { WhyReact } from './WhyReact';

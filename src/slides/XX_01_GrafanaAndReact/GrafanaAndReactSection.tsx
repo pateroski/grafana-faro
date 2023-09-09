@@ -1,7 +1,7 @@
 import { FlexBox, Heading, Slide } from 'spectacle'
 import Back from '../../assets/images/back.png'
 
-export function WhyReact() {
+export function GrafanaAndReactSection() {
   return (
     <Slide backgroundImage={`url(${Back})`}>
       <FlexBox
@@ -11,7 +11,7 @@ export function WhyReact() {
         justifyContent="center"
         alignItems="flex-start"
       >
-        <Heading>¿Por qué React?</Heading>
+        <Heading textAlign="start">¿Qué le ofrece Grafana faro a React?</Heading>
       </FlexBox>
     </Slide>
   )
