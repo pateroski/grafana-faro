@@ -4,6 +4,7 @@ import Back from '../../assets/images/back.png'
 export function GFRFeatureFaroRoutes() {
   return (
     <SlideLayout.MultiCodeLayout
+      numColumns={2}
       backgroundImage={`url(${Back})`}
       title={
         <>
@@ -57,7 +58,7 @@ export function GFRFeatureFaroRoutes() {
           ],
   `,
           language: 'jsx',
-          description: 'Router Instrumentation',
+          description: 'Instrumentación de Enrutador',
           highlightRanges: [[1], [5, 13]],
           theme: codePaneThemes.a11yDark,
         },
