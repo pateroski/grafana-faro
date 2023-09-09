@@ -21,6 +21,7 @@ import {
   WhyReact,
   ReactAsPowerFullTool,
   FaroReactPackage,
+  GFRFeatureErrorBoundaries,
 } from './slides/XX_01_GrafanaAndReact'
 
 const theme = {
@@ -37,7 +38,7 @@ const theme = {
   fontSizes: {
     header: '64px',
     text: '32px',
-    monospace: '24px',
+    monospace: '16px',
   },
 }
 
@@ -67,6 +68,7 @@ function App() {
       <WhyReact />
       <ReactAsPowerFullTool />
       <FaroReactPackage />
+      <GFRFeatureErrorBoundaries />
     </Deck>
   )
 }
