@@ -28,6 +28,7 @@ import {
 import {
   HowWeImplementGrafanaAndReactSection,
   GFRInitialize,
+  GrafanaFaroPostRequest,
 } from './slides/XX_02_HowWeImplementGrafanaAndReact'
 
 const theme = {
@@ -79,6 +80,7 @@ function App() {
       <GFRFeatureFaroRoutes />
       <HowWeImplementGrafanaAndReactSection />
       <GFRInitialize />
+      <GrafanaFaroPostRequest />
     </Deck>
   )
 }
