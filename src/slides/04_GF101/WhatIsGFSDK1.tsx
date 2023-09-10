@@ -1,4 +1,14 @@
-import { FlexBox, Heading, Image, ListItem, Notes, Slide, Text, UnorderedList } from 'spectacle'
+import {
+  Appear,
+  FlexBox,
+  Heading,
+  Image,
+  ListItem,
+  Notes,
+  Slide,
+  Text,
+  UnorderedList,
+} from 'spectacle'
 import Back from '../../assets/images/back.png'
 import Errors from '../../assets/icons/errors.svg'
 import Metrics from '../../assets/icons/metrics.svg'
@@ -35,39 +45,45 @@ export function WhatIsGFSDK1() {
               padding: '0',
             }}
           >
-            <ListItem
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
-            >
-              <Image src={Errors} width="64px" />
-              <Text textAlign="center">Tracking de errores automático</Text>
-            </ListItem>
-            <ListItem
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
-            >
-              <Image src={Metrics} width="64px" />
-              <Text textAlign="center">Monitorización Web Performance (CWV)</Text>
-            </ListItem>
-            <ListItem
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
-            >
-              <Image src={OpenTelemetryLogo} width="64px" />
-              <Text textAlign="center">Trazas de la pila completa con OpenTelemetry</Text>
-            </ListItem>
+            <Appear>
+              <ListItem
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                }}
+              >
+                <Image src={Errors} width="64px" />
+                <Text textAlign="center">Tracking de errores automático</Text>
+              </ListItem>
+            </Appear>
+            <Appear>
+              <ListItem
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                }}
+              >
+                <Image src={Metrics} width="64px" />
+                <Text textAlign="center">Monitorización Web Performance (CWV)</Text>
+              </ListItem>
+            </Appear>
+            <Appear>
+              <ListItem
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                }}
+              >
+                <Image src={OpenTelemetryLogo} width="64px" />
+                <Text textAlign="center">Trazas de la pila completa con OpenTelemetry</Text>
+              </ListItem>
+            </Appear>
           </UnorderedList>
         </FlexBox>
         <FlexBox flex="1 1 0" justifyContent="center" alignItems="center">
@@ -81,28 +97,32 @@ export function WhatIsGFSDK1() {
               padding: '0',
             }}
           >
-            <ListItem
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
-            >
-              <Image src={Logs} width="64px" />
-              <Text textAlign="center">Logs de consola para mayor contexto</Text>
-            </ListItem>
-            <ListItem
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
-            >
-              <Image src={UserActivity} width="64px" />
-              <Text textAlign="center">Tracking de la actividad del usuario</Text>
-            </ListItem>
+            <Appear>
+              <ListItem
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                }}
+              >
+                <Image src={Logs} width="64px" />
+                <Text textAlign="center">Logs de consola para mayor contexto</Text>
+              </ListItem>
+            </Appear>
+            <Appear>
+              <ListItem
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                }}
+              >
+                <Image src={UserActivity} width="64px" />
+                <Text textAlign="center">Tracking de la actividad del usuario</Text>
+              </ListItem>
+            </Appear>
           </UnorderedList>
         </FlexBox>
       </FlexBox>

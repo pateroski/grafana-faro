@@ -1,4 +1,4 @@
-import { FlexBox, Heading, ListItem, Notes, Slide, Text, UnorderedList } from 'spectacle'
+import { Appear, FlexBox, Heading, ListItem, Notes, Slide, Text, UnorderedList } from 'spectacle'
 
 import Back from '../../assets/images/back.png'
 
@@ -23,26 +23,34 @@ export function GrafanaFaroDescription5() {
             height: '100%',
           }}
         >
-          <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              📈
-            </Text>
-            <Text textAlign="center">Complejidad de las aplicaciones frontend ha incrementado</Text>
-          </ListItem>
-          <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              🫥
-            </Text>
-            <Text textAlign="center">Entorno en el que se ejecutan los navegadores aislado</Text>
-          </ListItem>
-          <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              🗣️
-            </Text>
-            <Text textAlign="center">
-              El feedback por parte de los usuarios a veces no es posible
-            </Text>
-          </ListItem>
+          <Appear>
+            <ListItem>
+              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+                📈
+              </Text>
+              <Text textAlign="center">
+                Complejidad de las aplicaciones frontend ha incrementado
+              </Text>
+            </ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>
+              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+                🫥
+              </Text>
+              <Text textAlign="center">Entorno en el que se ejecutan los navegadores aislado</Text>
+            </ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>
+              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+                🗣️
+              </Text>
+              <Text textAlign="center">
+                El feedback por parte de los usuarios a veces no es posible
+              </Text>
+            </ListItem>
+          </Appear>
         </UnorderedList>
       </FlexBox>
       <Notes>

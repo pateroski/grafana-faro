@@ -1,4 +1,4 @@
-import { FlexBox, Heading, ListItem, Notes, Slide, Text, UnorderedList } from 'spectacle'
+import { Appear, FlexBox, Heading, ListItem, Notes, Slide, Text, UnorderedList } from 'spectacle'
 
 import Back from '../../assets/images/back.png'
 
@@ -23,24 +23,30 @@ export function GrafanaFaroDescription6() {
             height: '100%',
           }}
         >
-          <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              💨
-            </Text>
-            <Text textAlign="center">Muy fácil y rápida integración con ⚛️</Text>
-          </ListItem>
-          <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              🔝
-            </Text>
-            <Text textAlign="center">Uso de OpenTelemetry para la captura de trazas</Text>
-          </ListItem>
-          <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              💆🏻‍♂️
-            </Text>
-            <Text textAlign="center">Instrumentación automática y manual</Text>
-          </ListItem>
+          <Appear>
+            <ListItem>
+              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+                💨
+              </Text>
+              <Text textAlign="center">Muy fácil y rápida integración con ⚛️</Text>
+            </ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>
+              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+                🔝
+              </Text>
+              <Text textAlign="center">Uso de OpenTelemetry para la captura de trazas</Text>
+            </ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>
+              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+                💆🏻‍♂️
+              </Text>
+              <Text textAlign="center">Instrumentación automática y manual</Text>
+            </ListItem>
+          </Appear>
         </UnorderedList>
       </FlexBox>
       <Notes>
