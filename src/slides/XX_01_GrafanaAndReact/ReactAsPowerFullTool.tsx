@@ -23,14 +23,12 @@ export function ReactAsPowerFullTool() {
             width: '100%',
           }}
         >
-          <Appear>
-            <ListItem>
-              <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                📈
-              </Text>
-              <Text textAlign="center">Ecosistema</Text>
-            </ListItem>
-          </Appear>
+          <ListItem>
+            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+              📈
+            </Text>
+            <Text textAlign="center">Ecosistema</Text>
+          </ListItem>
           <Appear>
             <ListItem>
               <Text textAlign="center" fontSize="64px" margin="0" padding="0">
