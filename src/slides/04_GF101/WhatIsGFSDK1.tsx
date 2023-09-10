@@ -27,7 +27,7 @@ export function WhatIsGFSDK1() {
         alignItems="flex-start"
       >
         <Heading
-          fontSize="64px"
+          fontSize="48px"
           style={{
             marginBottom: '0',
           }}

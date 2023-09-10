@@ -11,7 +11,9 @@ export function HowWeImplementGrafanaAndReactSection() {
         justifyContent="center"
         alignItems="flex-start"
       >
-        <Heading textAlign="start">¿Cómo implementamos el uso de Grafana Faro en React?</Heading>
+        <Heading textAlign="start" fontSize="64px">
+          ¿Cómo implementamos el uso de Grafana Faro en React?
+        </Heading>
       </FlexBox>
     </Slide>
   )
