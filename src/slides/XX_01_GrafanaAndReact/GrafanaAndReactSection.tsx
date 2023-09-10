@@ -11,7 +11,9 @@ export function GrafanaAndReactSection() {
         justifyContent="center"
         alignItems="flex-start"
       >
-        <Heading textAlign="start">¿Qué le ofrece Grafana faro a React?</Heading>
+        <Heading textAlign="start" fontSize="64px">
+          ¿Qué le ofrece Grafana faro a React?
+        </Heading>
       </FlexBox>
     </Slide>
   )
