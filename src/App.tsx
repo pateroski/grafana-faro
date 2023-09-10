@@ -35,6 +35,7 @@ import {
   GFRInitialize,
   GrafanaFaroPostRequest,
 } from './slides/XX_02_HowWeImplementGrafanaAndReact'
+import { CasoUsoAgentsSection } from './slides/XX_03_CasoUsoAgents'
 
 const theme = {
   colors: {
@@ -87,6 +88,7 @@ function App() {
       <HowWeImplementGrafanaAndReactSection />
       <GFRInitialize />
       <GrafanaFaroPostRequest />
+      <CasoUsoAgentsSection />
     </Deck>
   )
 }
