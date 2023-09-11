@@ -115,7 +115,11 @@ export function WhatIsGFSDK2() {
         </FlexBox>
       </FlexBox>
       <Notes>
-        <li></li>
+        <li>
+          Las instrumentaciones son los recolectores de datos responsables de integrarse con la API
+          del navegador y con la API core de Web SDK con el objetivo de recolectar y parsear los
+          datos para que puedan ser reportados
+        </li>
         <li></li>
         <li></li>
         <li></li>
