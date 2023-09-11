@@ -1,5 +1,20 @@
-import { FlexBox, Heading, Notes, Slide, UnorderedList, ListItem, Text, Appear } from 'spectacle'
+import {
+  FlexBox,
+  Heading,
+  Notes,
+  Slide,
+  UnorderedList,
+  ListItem,
+  Text,
+  Appear,
+  Image,
+} from 'spectacle'
 import Back from '../../assets/images/back.png'
+import Ecosystem from '../../assets/icons/ecosystem.svg'
+import Performance from '../../assets/icons/performance.png'
+import Community from '../../assets/icons/community.png'
+import State from '../../assets/icons/state.svg'
+import Code from '../../assets/icons/code.png'
 
 export function ReactAsPowerFullTool() {
   return (
@@ -25,14 +40,14 @@ export function ReactAsPowerFullTool() {
         >
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              📈
+              <Image width="70px" src={Ecosystem}></Image>
             </Text>
             <Text textAlign="center">Ecosistema</Text>
           </ListItem>
           <Appear>
             <ListItem>
               <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                🫥
+                <Image width="70px" src={Performance}></Image>
               </Text>
               <Text textAlign="center">Rendimiento</Text>
             </ListItem>
@@ -40,7 +55,7 @@ export function ReactAsPowerFullTool() {
           <Appear>
             <ListItem>
               <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                🗣️
+                <Image width="70px" src={Community}></Image>
               </Text>
               <Text textAlign="center">Comunidad</Text>
             </ListItem>
@@ -60,7 +75,7 @@ export function ReactAsPowerFullTool() {
           <Appear>
             <ListItem>
               <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                📈
+                <Image width="70px" src={State}></Image>
               </Text>
               <Text textAlign="center">Manejo del Estado</Text>
             </ListItem>
@@ -68,7 +83,7 @@ export function ReactAsPowerFullTool() {
           <Appear>
             <ListItem>
               <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-                🫥
+                <Image width="70px" src={Code}></Image>
               </Text>
               <Text textAlign="center">Paradigma de hooks</Text>
             </ListItem>
