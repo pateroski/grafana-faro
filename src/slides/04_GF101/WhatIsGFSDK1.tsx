@@ -55,7 +55,7 @@ export function WhatIsGFSDK1() {
                 }}
               >
                 <Image src={Errors} width="64px" />
-                <Text textAlign="center">Tracking de errores automático</Text>
+                <Text textAlign="center">Tracking de errores</Text>
               </ListItem>
             </Appear>
             <Appear>

@@ -31,7 +31,7 @@ export function WhatIsGFSDK2() {
             marginBottom: '0',
           }}
         >
-          ¿Qué herramientas nos ofrece?
+          ¿Qué herramientas utilizamos?
         </Heading>
         <FlexBox width="100%" height="100%" justifyContent="center" alignItems="center">
           <UnorderedList
@@ -118,12 +118,25 @@ export function WhatIsGFSDK2() {
         <li>
           Las instrumentaciones son los recolectores de datos responsables de integrarse con la API
           del navegador y con la API core de Web SDK con el objetivo de recolectar y parsear los
-          datos para que puedan ser reportados
+          datos para que puedan ser reportados al agente que se encarga de enviarlos a Loki y Tempo
+          respectivamente
         </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>
+          Los transports no deja de ser la librería que nos permite indicar qué mecanismo de envío
+          de los datos recolectados que vamos a utilizar y de qué forma vamos hacerlo.
+          Principalmente hace referencia a 2 que son fetch API y console
+        </li>
+        <li>
+          Las metas son toda aquella información que va asociada a las fuentes de datos que estamos
+          recolectando, errores, eventos, logs, medidas y que proveen contexto adicional de cara a
+          poder utilizarse para filtrar la información que queremos observar
+        </li>
+        <li>
+          Y por supuesto, el tracing con opentelemetry-js que nos va a permitir agregar contexto
+          mediante trazas a los eventos, logs, errores y medidas que utilicemos como fuente de
+          datos. Lo bueno de grafana Faro aquí es que te permite integrar la implementación que ya
+          hayas hecho de tracing con opentelemetry-js o configurarla desde 0
+        </li>
       </Notes>
     </Slide>
   )
