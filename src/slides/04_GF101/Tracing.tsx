@@ -15,45 +15,37 @@ export function TracingSlide() {
       codeBlocks={[
         {
           code: `
+          import { TracingInstrumentation } from '@grafana/faro-web-tracing';
+          import { getWebInstrumentations, initializeFaro } from '@grafana/faro-web-sdk';
+
           initializeFaro({
-            url: 'https://my-domain.my-tld/collect/{app-key}',
+            // Mandatory, the URL of the Grafana Cloud collector with embedded application key.
+            // Copy from the configuration page of your application in Grafana.
+            url: 'http://faro-collector-us-central-0.grafana.net/collect/{app-key}',
+
+            // Mandatory, the identification label(s) of your application
             app: {
               name: 'my-app',
+              version: '1.0.0', // Optional, but recommended
             },
-            instrumentations: [
-              // Other instrumentations
 
-              // Don't forget to add the other instrumentations as well
+            instrumentations: [
+              // Mandatory, overwriting the instrumentations array would cause the default instrumentations to be omitted
               ...getWebInstrumentations(),
 
+              // Mandatory, initialization of the tracing package
               new TracingInstrumentation({
-                // Optional, add custom attributes to the resource
-                resourceAttributes: {
-                  'my.attribute': 'my-attribute-value',
+                instrumentationOptions: {
+                  // Requests to these URLs will have tracing headers attached.
+                  propagateTraceHeaderCorsUrls: [new RegExp('https://foo.com/*'), 'https://bar.com'],
                 },
-
-                // Optional, replace the default W3C Trace Context Propagator
-                propagator: new MyPropagator(),
-
-                // Optional, overwrite the default Zone Context Manager
-                contextManager: new MyContextManager(),
-
-                // Optional, overwrite the default instrumentations or set ignore URLs
-                instrumentations: [
-                  ...getDefaultOTELInstrumentations({
-                    // URLs defined here are ignored
-                    ignoreUrls: [/localhost:3000/],
-                  }),
-
-                  new MyOtherOTELInstrumentation(),
-                ],
               }),
             ],
           });
   `,
           language: 'jsx',
           description: 'Necesaria configuración manual',
-          highlightRanges: [[12], [12, 34], [31]],
+          highlightRanges: [[1, 2], [15], [17], [20, 25]],
           theme: codePaneThemes.a11yDark,
         },
       ]}
