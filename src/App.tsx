@@ -18,6 +18,11 @@ import {
 import {
   GrafanaFaro101Section,
   Instrumentations1,
+  Instrumentations2,
+  Instrumentations3,
+  Instrumentations4,
+  Instrumentations5,
+  TracingSlide,
   WhatIsGFSDK1,
   WhatIsGFSDK2,
   WhatIsGFSDKSection,
@@ -81,6 +86,11 @@ function App() {
       <WhatIsGFSDK1 />
       <WhatIsGFSDK2 />
       <Instrumentations1 />
+      <Instrumentations2 />
+      <Instrumentations3 />
+      <Instrumentations4 />
+      <Instrumentations5 />
+      <TracingSlide />
       <GrafanaAndReactSection />
       <WhyReact />
       <ReactAsPowerFullTool />

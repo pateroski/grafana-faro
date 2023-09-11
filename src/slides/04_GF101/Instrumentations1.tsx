@@ -34,7 +34,7 @@ export function Instrumentations1() {
           });
   `,
           language: 'jsx',
-          description: 'Config',
+          description: 'Config por defecto',
           highlightRanges: [[1], [6], [7], [9], [12], [15]],
           theme: codePaneThemes.a11yDark,
         },
@@ -57,7 +57,7 @@ export function Instrumentations1() {
           });
   `,
           language: 'jsx',
-          description: 'Implementation',
+          description: 'Config manual',
           highlightRanges: [[6], [7], [9], [12]],
           theme: codePaneThemes.a11yDark,
         },
