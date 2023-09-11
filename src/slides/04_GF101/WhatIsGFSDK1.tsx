@@ -56,6 +56,9 @@ export function WhatIsGFSDK1() {
               >
                 <Image src={Errors} width="64px" />
                 <Text textAlign="center">Tracking de errores</Text>
+                <Text textAlign="center" color="secondary" margin="0px">
+                  (errors)
+                </Text>
               </ListItem>
             </Appear>
             <Appear>
@@ -69,6 +72,9 @@ export function WhatIsGFSDK1() {
               >
                 <Image src={Metrics} width="64px" />
                 <Text textAlign="center">Monitorización Web Performance (CWV)</Text>
+                <Text textAlign="center" color="secondary" margin="0px">
+                  (measurements)
+                </Text>
               </ListItem>
             </Appear>
             <Appear>
@@ -82,6 +88,9 @@ export function WhatIsGFSDK1() {
               >
                 <Image src={OpenTelemetryLogo} width="64px" />
                 <Text textAlign="center">Trazas de la pila completa con OpenTelemetry</Text>
+                <Text textAlign="center" color="secondary" margin="0px">
+                  (traces)
+                </Text>
               </ListItem>
             </Appear>
           </UnorderedList>
@@ -108,6 +117,9 @@ export function WhatIsGFSDK1() {
               >
                 <Image src={Logs} width="64px" />
                 <Text textAlign="center">Logs de consola para mayor contexto</Text>
+                <Text textAlign="center" color="secondary" margin="0px">
+                  (logs)
+                </Text>
               </ListItem>
             </Appear>
             <Appear>
@@ -121,6 +133,9 @@ export function WhatIsGFSDK1() {
               >
                 <Image src={UserActivity} width="64px" />
                 <Text textAlign="center">Tracking de la actividad del usuario</Text>
+                <Text textAlign="center" color="secondary" margin="0px">
+                  (events, session, view, page)
+                </Text>
               </ListItem>
             </Appear>
           </UnorderedList>
