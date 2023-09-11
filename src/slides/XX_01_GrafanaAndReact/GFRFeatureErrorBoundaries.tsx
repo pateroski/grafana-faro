@@ -16,17 +16,12 @@ export function GFRFeatureErrorBoundaries() {
         <Heading fontSize="48px">
           Límites de error <span style={{ fontSize: 35 }}>(Error Boundaries)</span>
         </Heading>
-        <div
-          style={{
-            fontSize: 14,
-          }}
+        <CodePane
+          language="jsx"
+          highlightRanges={[[1], [6, 8], [13, 17]]}
+          theme={codePaneThemes.a11yDark}
         >
-          <CodePane
-            language="jsx"
-            highlightRanges={[[1], [6, 8], [13, 17]]}
-            theme={codePaneThemes.a11yDark}
-          >
-            {`
+          {`
               import { FaroErrorBoundary } from '@grafana/faro-react'
 
               async function startApp() {
@@ -52,8 +47,7 @@ export function GFRFeatureErrorBoundaries() {
               startApp()
 
       `}
-          </CodePane>
-        </div>
+        </CodePane>
         <Appear>
           <div
             style={{

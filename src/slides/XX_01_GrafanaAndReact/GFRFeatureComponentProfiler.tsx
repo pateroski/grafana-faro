@@ -15,7 +15,6 @@ export function GFRFeatureComponentProfiler() {
         <Heading fontSize="48px">
           Analizador de Componente <span style={{ fontSize: 35 }}>(Component Profiler)</span>
         </Heading>
-
         <CodePane language="jsx" highlightRanges={[[1], [7]]} theme={codePaneThemes.a11yDark}>
           {`
               import { withFaroProfiler } from '@grafana/faro-react';
