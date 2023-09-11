@@ -96,6 +96,21 @@ export function ReactAsPowerFullTool() {
           soporte continuamente. Como Grafana es de código abierto, estar basado en la librería
           frontend más popular ha ayudado a facilitar las contribuciones de la comunidad a Grafana.
         </li>
+        <li>
+          En comparación con Angular, React no es un marco, por lo que la cuestión de cómo
+          administrar el estado complejo de la aplicación mientras se usa React ha estado abierta
+          durante mucho tiempo y es decisión del desarrollador como manejarlo. Antes del contexto,
+          estaba Redux, y antes de Redux, estaba el viejo paso unidireccional de accesorios. Por lo
+          que decidieron en la libertad para considerar una gran variedad de opciones de gestión
+          estatal y elegir la que tenga más sentido, context, redux y rxjs
+        </li>
+        <li>
+          Cuando comenzaron el desarrollo, primero comenzaron con component class y después
+          surgieron los hooks y los componentes funcionales. Debido al cambio algunos
+          desarrolladores han expresado su frustración con los hooks porque introducen cierres
+          obsoletos y requieren aprender y dominar las reglas de los hooks. Los componentes
+          funcionales, como se les llama, rara vez son funciones puras.
+        </li>
       </Notes>
     </Slide>
   )
