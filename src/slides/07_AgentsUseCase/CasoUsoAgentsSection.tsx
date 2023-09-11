@@ -11,7 +11,9 @@ export function CasoUsoAgentsSection() {
         justifyContent="center"
         alignItems="flex-start"
       >
-        <Heading textAlign="start">Caso de Uso en MásMóvil: Agents</Heading>
+        <Heading textAlign="start" fontSize="64px">
+          Caso de Uso en MásMóvil: Agents
+        </Heading>
       </FlexBox>
       <Notes>
         <li>Listado de Aplicaciones</li>
@@ -75,10 +77,10 @@ export function CasoUsoAgentsSection() {
         <li>Errors page</li>
         <li>
           En esta página se podrá ver cuántos errores genera su aplicación dentro de un período de
-          tiempo determinado, filtrar resultados según un error, filtrar errores ruidosos, inspeccionar
-          el contexto del error (stacktrace, ID de sesión u otra meta-información), identificar
-          excepciones dominantes, identificar las URL que generan errores, segregar el recuento de
-          errores según los navegadores
+          tiempo determinado, filtrar resultados según un error, filtrar errores ruidosos,
+          inspeccionar el contexto del error (stacktrace, ID de sesión u otra meta-información),
+          identificar excepciones dominantes, identificar las URL que generan errores, segregar el
+          recuento de errores según los navegadores
         </li>
       </Notes>
     </Slide>

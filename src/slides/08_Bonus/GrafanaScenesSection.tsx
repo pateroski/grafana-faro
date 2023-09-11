@@ -11,7 +11,9 @@ export function GrafanaScenesSection() {
         justifyContent="center"
         alignItems="flex-start"
       >
-        <Heading textAlign="start">Bonus: Creación de paneles de Grafana con Scenes</Heading>
+        <Heading textAlign="start" fontSize="64px">
+          Bonus: Creación de paneles de Grafana con Scenes
+        </Heading>
       </FlexBox>
     </Slide>
   )

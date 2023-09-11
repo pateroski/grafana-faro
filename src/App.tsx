@@ -29,14 +29,14 @@ import {
   GFRFeatureErrorBoundaries,
   GFRFeatureComponentProfiler,
   GFRFeatureFaroRoutes,
-} from './slides/XX_01_GrafanaAndReact'
+} from './slides/05_GrafanaAndReact'
 import {
   HowWeImplementGrafanaAndReactSection,
   GFRInitialize,
   GrafanaFaroPostRequest,
-} from './slides/XX_02_HowWeImplementGrafanaAndReact'
-import { CasoUsoAgentsSection } from './slides/XX_03_CasoUsoAgents'
-import { GrafanaScenesSection } from './slides/XX_04_GrafanaScenes'
+} from './slides/06_HowWeImplementGrafanaAndReact'
+import { CasoUsoAgentsSection } from './slides/07_AgentsUseCase'
+import { GrafanaScenesSection } from './slides/08_Bonus'
 
 const theme = {
   colors: {
