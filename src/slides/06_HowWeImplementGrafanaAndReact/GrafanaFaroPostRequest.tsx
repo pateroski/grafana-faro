@@ -10,7 +10,7 @@ export function GrafanaFaroPostRequest() {
         numColumns={2}
         backgroundImage={`url(${Back})`}
         title="Grafana Faro Envío de datos"
-        titleProps={{ fontSize: '48px' }}
+        titleProps={{ fontSize: '48px', textAlign: 'left' }}
         codeBlocks={[
           {
             language: 'json',
@@ -79,7 +79,7 @@ export function GrafanaFaroPostRequest() {
       <MultiCodeLayout
         backgroundImage={`url(${Back})`}
         title="Grafana Faro Envío de datos"
-        titleProps={{ fontSize: '48px' }}
+        titleProps={{ fontSize: '48px', textAlign: 'left' }}
         codeBlocks={[
           {
             language: 'json',
@@ -217,7 +217,7 @@ export function GrafanaFaroPostRequest() {
       <MultiCodeLayout
         backgroundImage={`url(${Back})`}
         title="Grafana Faro Envío de datos"
-        titleProps={{ fontSize: '48px' }}
+        titleProps={{ fontSize: '48px', textAlign: 'left' }}
         codeBlocks={[
           {
             language: 'json',

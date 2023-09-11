@@ -8,10 +8,10 @@ export function GFRFeatureFaroRoutes() {
       backgroundImage={`url(${Back})`}
       title={
         <>
-          Enrutador de páginas <span style={{ fontSize: 35 }}>(Router)</span>
+          Enrutador de páginas <span style={{ fontSize: 36 }}>(Router)</span>
         </>
       }
-      titleProps={{ fontSize: '48px' }}
+      titleProps={{ fontSize: '48px', textAlign: 'left' }}
       codeBlocks={[
         {
           code: `

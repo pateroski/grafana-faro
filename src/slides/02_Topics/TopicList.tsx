@@ -17,7 +17,6 @@ export function TopicList() {
           <ListItem>Grafana Faro 101</ListItem>
           <UnorderedList>
             <ListItem color="secondary">Grafana Faro Web SDK</ListItem>
-            <ListItem color="secondary">Grafana Faro Dashboards</ListItem>
           </UnorderedList>
           <ListItem>Grafana Faro y React</ListItem>
           <UnorderedList>
@@ -28,9 +27,6 @@ export function TopicList() {
           </UnorderedList>
           <ListItem>Caso de Uso en MásMóvil: Agents</ListItem>
           <ListItem>¿Qué ventajas ofrece Grafana Faro que no ofrezca otros RUMS?</ListItem>
-          <UnorderedList>
-            <ListItem color="secondary">Bonus: Creación de paneles de Grafana con Scenes</ListItem>
-          </UnorderedList>
         </UnorderedList>
       </FlexBox>
     </Slide>

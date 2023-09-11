@@ -14,7 +14,7 @@ export function GFRFeatureErrorBoundaries() {
         alignItems="flex-start"
       >
         <Heading fontSize="48px">
-          Límites de error <span style={{ fontSize: 35 }}>(Error Boundaries)</span>
+          Límites de error <span style={{ fontSize: 36 }}>(Error Boundaries)</span>
         </Heading>
         <CodePane
           language="jsx"

@@ -17,6 +17,7 @@ import {
 } from './slides/03_WhatIsAndWhyGF'
 import {
   GrafanaFaro101Section,
+  Instrumentations1,
   WhatIsGFSDK1,
   WhatIsGFSDK2,
   WhatIsGFSDKSection,
@@ -79,6 +80,7 @@ function App() {
       <WhatIsGFSDKSection />
       <WhatIsGFSDK1 />
       <WhatIsGFSDK2 />
+      <Instrumentations1 />
       <GrafanaAndReactSection />
       <WhyReact />
       <ReactAsPowerFullTool />

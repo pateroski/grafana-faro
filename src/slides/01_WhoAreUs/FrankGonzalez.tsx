@@ -11,7 +11,7 @@ export function FrankGonzalez() {
       imgProps={{ style: { objectFit: 'none', minWidth: '0' } }}
       position="right"
       title="Frank González Hernández"
-      titleProps={{ fontSize: '48px' }}
+      titleProps={{ fontSize: '48px', textAlign: 'left' }}
       listItems={[
         '🧑🏻‍🎓: Ingeniero Informática desde 2014',
         '🏁: Full-Stack Developer con afición por el Frontend',

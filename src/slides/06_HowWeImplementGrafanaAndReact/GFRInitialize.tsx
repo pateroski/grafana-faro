@@ -9,7 +9,7 @@ export function GFRInitialize() {
       <MultiCodeLayout
         backgroundImage={`url(${Back})`}
         title="Inicializando Grafana Faro"
-        titleProps={{ fontSize: '48px' }}
+        titleProps={{ fontSize: '48px', textAlign: 'left' }}
         codeBlocks={[
           {
             language: 'jsx',

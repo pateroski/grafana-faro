@@ -11,7 +11,7 @@ export function AndresReyes() {
       imgProps={{ style: { objectFit: 'none', minWidth: '0' } }}
       position="left"
       title="Andrés Reyes Navas"
-      titleProps={{ fontSize: '48px' }}
+      titleProps={{ fontSize: '48px', textAlign: 'left' }}
       listItems={[
         '🧑🏻‍🎓: Ingeniero de Teleco: Telemática',
         '🏁: Frontend Developer desde el 2015',
