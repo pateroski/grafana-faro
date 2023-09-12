@@ -42,7 +42,8 @@ import {
   GrafanaFaroPostRequest,
 } from './slides/06_HowWeImplementGrafanaAndReact'
 import { CasoUsoAgentsSection } from './slides/07_AgentsUseCase'
-import { GrafanaScenesSection } from './slides/08_Bonus'
+import { GrafanaVentajasSection, OthersRUMS, AdvantagesOfUse } from './slides/08_Ventajas'
+import { GrafanaScenesSection } from './slides/09_Bonus'
 
 const theme = {
   colors: {
@@ -102,6 +103,9 @@ function App() {
       <GFRInitialize />
       <GrafanaFaroPostRequest />
       <CasoUsoAgentsSection />
+      <GrafanaVentajasSection />
+      <OthersRUMS />
+      <AdvantagesOfUse />
       <GrafanaScenesSection />
     </Deck>
   )
