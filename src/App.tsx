@@ -43,7 +43,7 @@ import {
   GFRInitialize,
   GrafanaFaroPostRequest,
 } from './slides/06_HowWeImplementGrafanaAndReact'
-import { CasoUsoAgentsSection } from './slides/07_AgentsUseCase'
+import { CasoUsoAgentsSection, Agents } from './slides/07_AgentsUseCase'
 import { GrafanaAdvantagesSection, OthersRUMS, AdvantagesOfUse } from './slides/08_Advantages'
 import { QRTalkSlide, QuestionsSection, ThanksSection } from './slides/09_Closing'
 
@@ -107,6 +107,7 @@ function App() {
       <GFRInitialize />
       <GrafanaFaroPostRequest />
       <CasoUsoAgentsSection />
+      <Agents />
       <GrafanaAdvantagesSection />
       <OthersRUMS />
       <AdvantagesOfUse />
