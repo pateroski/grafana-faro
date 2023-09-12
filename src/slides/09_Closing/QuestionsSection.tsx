@@ -1,7 +1,7 @@
 import { FlexBox, Heading, Slide } from 'spectacle'
 import Back from '../../assets/images/back.png'
 
-export function GrafanaQuestionSection() {
+export function QuestionsSection() {
   return (
     <Slide backgroundImage={`url(${Back})`}>
       <FlexBox

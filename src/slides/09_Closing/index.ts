@@ -1,1 +1,2 @@
-export { GrafanaQuestionSection } from './GrafanaQuestionSection'
+export { QuestionsSection } from './QuestionsSection'
+export { ThanksSection } from './ThanksSection'
