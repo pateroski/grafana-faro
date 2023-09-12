@@ -22,42 +22,31 @@ export function MetasSlide() {
           <ListItem>¿Qué son?</ListItem>
           <UnorderedList>
             <ListItem color="secondary">
-              Envío de trazas a <CodeSpan>Tempo</CodeSpan> donde se captura un flujo de datos
-              derivado de una interacción de usuario
-            </ListItem>
-            <ListItem color="secondary">
-              Envío de una gran cantidad de datos por cada interacción que implique comunicación
-              frontend-backend para un análisis exhaustivo
+              Información adicional a los distintos logs (console, error, events) para proveer
+              contexto y filtrado
             </ListItem>
           </UnorderedList>
-          <ListItem>
-            Instrumentaciones que incluye:{' '}
-            <CodeSpan color="secondary">
-              User Interaction, Document Load, Fetch, XMLHttpRequest
-            </CodeSpan>
-          </ListItem>
-          <ListItem>
-            Envío manual: <CodeSpan color="secondary">faro.api.pushTraces()</CodeSpan> (traces)
-          </ListItem>
-          <ListItem>¿Qué es lo que hace?</ListItem>
+          <ListItem>¿Cuales hay?</ListItem>
           <UnorderedList>
             <ListItem color="secondary">
-              Envío de trazas a <CodeSpan>Tempo</CodeSpan> donde se captura un flujo de datos
-              derivado de una interacción de usuario
+              App: <CodeSpan>name, version, environment</CodeSpan>
             </ListItem>
             <ListItem color="secondary">
-              Envío de una gran cantidad de datos por cada interacción que implique comunicación
-              frontend-backend para un análisis exhaustivo
-            </ListItem>
-          </UnorderedList>
-          <ListItem>¿Para qué nos sirve?</ListItem>
-          <UnorderedList>
-            <ListItem color="secondary">
-              Tracking de llamadas a la backend API desde la interacción del usuario hasta la
-              respuesta HTTP
+              Session: <CodeSpan>id, attributes</CodeSpan> (<CodeSpan>faro.api.setSession</CodeSpan>
+              )
             </ListItem>
             <ListItem color="secondary">
-              Habilitar en prod en los casos que sea necesario (envío de datos elevado)
+              User: <CodeSpan>id, email, username, attributes</CodeSpan> (
+              <CodeSpan>faro.api.setUser</CodeSpan>)
+            </ListItem>
+            <ListItem color="secondary">
+              View: <CodeSpan>name, attributes</CodeSpan> (<CodeSpan>faro.api.setView</CodeSpan>)
+            </ListItem>
+            <ListItem color="secondary">
+              Browser: <CodeSpan>name, version, os, mobile</CodeSpan>
+            </ListItem>
+            <ListItem color="secondary">
+              Page: <CodeSpan>name</CodeSpan>
             </ListItem>
           </UnorderedList>
         </UnorderedList>
