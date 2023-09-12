@@ -11,7 +11,6 @@ import {
 } from 'spectacle'
 import Back from '../../assets/images/back.png'
 import Instrumentations from '../../assets/icons/instrumentation.svg'
-import FetchApi from '../../assets/icons/fetchApi.png'
 import Metas from '../../assets/icons/metaIcon.png'
 import OpenTelemetryLogo from '../../assets/images/OpenTelemetryLogo.png'
 
@@ -67,8 +66,8 @@ export function WhatIsGFSDK2() {
                   alignItems: 'center',
                 }}
               >
-                <Image src={FetchApi} width="64px" />
-                <Text textAlign="center">Transports</Text>
+                <Image src={OpenTelemetryLogo} width="64px" />
+                <Text textAlign="center">tracing con opentelemetry-js</Text>
               </ListItem>
             </Appear>
             <Appear>
@@ -86,33 +85,6 @@ export function WhatIsGFSDK2() {
             </Appear>
           </UnorderedList>
         </FlexBox>
-        <FlexBox width="100%" height="100%" justifyContent="center" alignItems="center">
-          <UnorderedList
-            style={{
-              display: 'flex',
-              listStyle: 'none',
-              justifyContent: 'center',
-              alignItems: 'center',
-              margin: '0',
-              padding: '0',
-              width: '100%',
-            }}
-          >
-            <Appear>
-              <ListItem
-                style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                }}
-              >
-                <Image src={OpenTelemetryLogo} width="64px" />
-                <Text textAlign="center">tracing con opentelemetry-js</Text>
-              </ListItem>
-            </Appear>
-          </UnorderedList>
-        </FlexBox>
       </FlexBox>
       <Notes>
         <li>
@@ -120,11 +92,6 @@ export function WhatIsGFSDK2() {
           del navegador y con la API core de Web SDK con el objetivo de recolectar y parsear los
           datos para que puedan ser reportados al agente que se encarga de enviarlos a Loki y Tempo
           respectivamente
-        </li>
-        <li>
-          Los transports no deja de ser la librería que nos permite indicar qué mecanismo de envío
-          de los datos recolectados que vamos a utilizar y de qué forma vamos hacerlo.
-          Principalmente hace referencia a 2 que son fetch API y console
         </li>
         <li>
           Las metas son toda aquella información que va asociada a las fuentes de datos que estamos
