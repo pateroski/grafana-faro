@@ -8,3 +8,4 @@ export { Instrumentations3 } from './Instrumentations3';
 export { Instrumentations4 } from './Instrumentations4';
 export { Instrumentations5 } from './Instrumentations5';
 export { TracingSlide } from './Tracing';
+export { MetasSlide } from './Metas';

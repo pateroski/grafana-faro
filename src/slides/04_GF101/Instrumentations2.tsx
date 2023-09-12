@@ -1,60 +1,54 @@
-import { codePaneThemes, SlideLayout } from 'spectacle'
+import { CodeSpan, FlexBox, Heading, Image, ListItem, Slide, UnorderedList } from 'spectacle'
 import Back from '../../assets/images/back.png'
+import Errors from '../../assets/icons/errors.svg'
 
 export function Instrumentations2() {
   return (
-    <SlideLayout.MultiCodeLayout
-      numColumns={2}
-      backgroundImage={`url(${Back})`}
-      title={
-        <>
-          Instrumentation<span style={{ fontSize: 36 }}>(error)</span>
-        </>
-      }
-      titleProps={{ fontSize: '48px', textAlign: 'left' }}
-      codeBlocks={[
-        {
-          code: `
-          const buggyFn = () => {
-            throw new Error('Buggy function');
-          };
-
-          try {
-            buggyFn();
-          } catch (err) {
-            // Re-throw the error so it can be caught
-            // by the instrumentation
-            throw err;
-
-            // Alternatively, report it manually
-            faro.api.pushError(err);
-          }
-  `,
-          language: 'jsx',
-          description: 'Envío de erorres',
-          highlightRanges: [[1, 3], [5, 14], [10], [13]],
-          theme: codePaneThemes.a11yDark,
-        },
-        {
-          code: `
-          initializeFaro({
-            url: 'https://my-domain.my-tld/collect/{app-key}',
-            app: {
-              name: 'my-app',
-            },
-            //Default config
-            instrumentations: [...getWebInstrumentations()],
-
-            //Manual config
-            instrumentations: [new ErrorsInstrumentation()],
-          });
-  `,
-          language: 'jsx',
-          description: 'Config por defecto y manual',
-          highlightRanges: [[7], [10]],
-          theme: codePaneThemes.a11yDark,
-        },
-      ]}
-    ></SlideLayout.MultiCodeLayout>
+    <Slide backgroundImage={`url(${Back})`}>
+      <FlexBox
+        width="100%"
+        height="100%"
+        flexDirection="column"
+        alignItems="flex-start"
+        justifyContent="flex-start"
+      >
+        <FlexBox width="100%" alignItems="center" justifyContent="flex-start">
+          <Heading fontSize="48px" margin="0">
+            Instrumentation<span style={{ fontSize: 36 }}>(error)</span>{' '}
+          </Heading>
+          <Image src={Errors} width="64px" />
+        </FlexBox>
+        <UnorderedList>
+          <ListItem>
+            Instrumentación: <CodeSpan color="secondary">getWebInstrumentations</CodeSpan>
+          </ListItem>
+          <ListItem>
+            Clase que lo implementa: <CodeSpan color="secondary">ErrorsInstrumentation</CodeSpan>
+          </ListItem>
+          <ListItem>
+            Envío manual: <CodeSpan color="secondary">faro.api.pushError</CodeSpan> (errors label)
+          </ListItem>
+          <ListItem>¿Qué es lo que hace?</ListItem>
+          <UnorderedList>
+            <ListItem color="secondary">
+              Suscripción a <CodeSpan>window.onerror</CodeSpan> y{' '}
+              <CodeSpan>window.onunhandledrejection</CodeSpan>
+            </ListItem>
+            <ListItem color="secondary">
+              Envío de errores (con stacktrace si está disponible)
+            </ListItem>
+          </UnorderedList>
+          <ListItem>¿Para qué nos sirve?</ListItem>
+          <UnorderedList>
+            <ListItem color="secondary">
+              Detección de anomalías que surjan en la app (crashes, unexpected behavior)
+            </ListItem>
+            <ListItem color="secondary">
+              Detección de problemas con librerías de terceros o sistemas externos
+            </ListItem>
+          </UnorderedList>
+        </UnorderedList>
+      </FlexBox>
+    </Slide>
   )
 }

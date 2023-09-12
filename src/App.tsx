@@ -22,6 +22,7 @@ import {
   Instrumentations3,
   Instrumentations4,
   Instrumentations5,
+  MetasSlide,
   TracingSlide,
   WhatIsGFSDK1,
   WhatIsGFSDK2,
@@ -43,7 +44,7 @@ import {
 } from './slides/06_HowWeImplementGrafanaAndReact'
 import { CasoUsoAgentsSection } from './slides/07_AgentsUseCase'
 import { GrafanaAdvantagesSection, OthersRUMS, AdvantagesOfUse } from './slides/08_Advantages'
-import { GrafanaQuestionSection } from './slides/09_Closing'
+import { QuestionsSection, ThanksSection } from './slides/09_Closing'
 
 const theme = {
   colors: {
@@ -92,6 +93,7 @@ function App() {
       <Instrumentations4 />
       <Instrumentations5 />
       <TracingSlide />
+      <MetasSlide />
       <GrafanaAndReactSection />
       <WhyReact />
       <ReactAsPowerFullTool />
@@ -106,7 +108,8 @@ function App() {
       <GrafanaAdvantagesSection />
       <OthersRUMS />
       <AdvantagesOfUse />
-      <GrafanaQuestionSection />
+      <QuestionsSection />
+      <ThanksSection />
     </Deck>
   )
 }

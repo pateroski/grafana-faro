@@ -1,38 +1,51 @@
-import { codePaneThemes, SlideLayout } from 'spectacle'
+import { CodeSpan, FlexBox, Heading, Image, ListItem, Slide, UnorderedList } from 'spectacle'
 import Back from '../../assets/images/back.png'
+import Metrics from '../../assets/icons/metrics.svg'
 
 export function Instrumentations3() {
   return (
-    <SlideLayout.MultiCodeLayout
-      numColumns={1}
-      backgroundImage={`url(${Back})`}
-      title={
-        <>
-          Instrumentation<span style={{ fontSize: 36 }}>(Web Vitals)</span>
-        </>
-      }
-      titleProps={{ fontSize: '48px', textAlign: 'left' }}
-      codeBlocks={[
-        {
-          code: `
-          initializeFaro({
-            url: 'https://my-domain.my-tld/collect/{app-key}',
-            app: {
-              name: 'my-app',
-            },
-            //Default config
-            instrumentations: [...getWebInstrumentations()],
-
-            //Manual config
-            instrumentations: [new WebVitalsInstrumentation()],
-          });
-  `,
-          language: 'jsx',
-          description: 'Config por defecto y manual',
-          highlightRanges: [[7], [10]],
-          theme: codePaneThemes.a11yDark,
-        },
-      ]}
-    ></SlideLayout.MultiCodeLayout>
+    <Slide backgroundImage={`url(${Back})`}>
+      <FlexBox
+        width="100%"
+        height="100%"
+        flexDirection="column"
+        alignItems="flex-start"
+        justifyContent="flex-start"
+      >
+        <FlexBox width="100%" alignItems="center" justifyContent="flex-start">
+          <Heading fontSize="48px" margin="0">
+            Instrumentation<span style={{ fontSize: 36 }}>(Web Vitals)</span>{' '}
+          </Heading>
+          <Image src={Metrics} width="64px" />
+        </FlexBox>
+        <UnorderedList>
+          <ListItem>
+            Instrumentación: <CodeSpan color="secondary">getWebInstrumentations</CodeSpan>
+          </ListItem>
+          <ListItem>
+            Clase que lo implementa: <CodeSpan color="secondary">WebVitalsInstrumentation</CodeSpan>
+          </ListItem>
+          <ListItem>
+            Envío manual: <CodeSpan color="secondary">faro.api.pushMeasurement</CodeSpan>{' '}
+            (measurements label)
+          </ListItem>
+          <ListItem>¿Qué es lo que hace?</ListItem>
+          <UnorderedList>
+            <ListItem color="secondary">
+              Hace uso del paquete <CodeSpan>web-vitals</CodeSpan>
+            </ListItem>
+            <ListItem color="secondary">
+              Envío de métricas como <CodeSpan>TTFB, FCP, LCP, CLS, FID, INP</CodeSpan>
+            </ListItem>
+          </UnorderedList>
+          <ListItem>¿Para qué nos sirve?</ListItem>
+          <UnorderedList>
+            <ListItem color="secondary">
+              Medida de la performance real de nuestras apps basada en métricas de percepción de UX
+            </ListItem>
+          </UnorderedList>
+        </UnorderedList>
+      </FlexBox>
+    </Slide>
   )
 }
