@@ -137,7 +137,7 @@ export function GrafanaFaroPostRequest() {
           {
             language: 'json',
             description: 'Meta App',
-            highlightRanges: [2, 3, 4],
+            highlightRanges: [2, 4],
             theme: codePaneThemes.a11yDark,
             code: `
             "app": {
