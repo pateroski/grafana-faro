@@ -1,3 +1,3 @@
-export { GrafanaVentajasSection } from './GrafanaVentajasSection'
+export { GrafanaAdvantagesSection } from './GrafanaAdvantagesSection'
 export { OthersRUMS } from './OthersRUMS'
 export { AdvantagesOfUse } from './AdvantagesOfUse'

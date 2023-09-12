@@ -42,8 +42,8 @@ import {
   GrafanaFaroPostRequest,
 } from './slides/06_HowWeImplementGrafanaAndReact'
 import { CasoUsoAgentsSection } from './slides/07_AgentsUseCase'
-import { GrafanaVentajasSection, OthersRUMS, AdvantagesOfUse } from './slides/08_Ventajas'
-import { GrafanaScenesSection } from './slides/09_Bonus'
+import { GrafanaAdvantagesSection, OthersRUMS, AdvantagesOfUse } from './slides/08_Advantages'
+import { GrafanaQuestionSection } from './slides/09_Closing'
 
 const theme = {
   colors: {
@@ -103,10 +103,10 @@ function App() {
       <GFRInitialize />
       <GrafanaFaroPostRequest />
       <CasoUsoAgentsSection />
-      <GrafanaVentajasSection />
+      <GrafanaAdvantagesSection />
       <OthersRUMS />
       <AdvantagesOfUse />
-      <GrafanaScenesSection />
+      <GrafanaQuestionSection />
     </Deck>
   )
 }

@@ -1,7 +1,7 @@
 import { FlexBox, Heading, Slide } from 'spectacle'
 import Back from '../../assets/images/back.png'
 
-export function GrafanaScenesSection() {
+export function GrafanaQuestionSection() {
   return (
     <Slide backgroundImage={`url(${Back})`}>
       <FlexBox
@@ -9,10 +9,10 @@ export function GrafanaScenesSection() {
         height="100%"
         flexDirection="column"
         justifyContent="center"
-        alignItems="flex-start"
+        alignItems="center"
       >
         <Heading textAlign="start" fontSize="64px">
-          Bonus: Creación de paneles de Grafana con Scenes
+          ¿Preguntas?
         </Heading>
       </FlexBox>
     </Slide>

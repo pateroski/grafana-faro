@@ -1,7 +1,7 @@
 import { FlexBox, Heading, Slide } from 'spectacle'
 import Back from '../../assets/images/back.png'
 
-export function GrafanaVentajasSection() {
+export function GrafanaAdvantagesSection() {
   return (
     <Slide backgroundImage={`url(${Back})`}>
       <FlexBox
@@ -12,7 +12,7 @@ export function GrafanaVentajasSection() {
         alignItems="flex-start"
       >
         <Heading textAlign="start" fontSize="64px">
-          ¿Qué ventajas ofrece Grafana Faro que no ofrezca otros RUMS?
+          ¿Qué ventajas nos ofrece Grafana Faro?
         </Heading>
       </FlexBox>
     </Slide>

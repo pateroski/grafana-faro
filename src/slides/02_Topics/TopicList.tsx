@@ -26,7 +26,7 @@ export function TopicList() {
             </ListItem>
           </UnorderedList>
           <ListItem>Caso de Uso en MásMóvil: Agents</ListItem>
-          <ListItem>¿Qué ventajas ofrece Grafana Faro que no ofrezca otros RUMS?</ListItem>
+          <ListItem>¿Qué ventajas nos ofrece Grafana Faro?</ListItem>
         </UnorderedList>
       </FlexBox>
     </Slide>
