@@ -16,7 +16,7 @@ export function FrankGonzalez() {
         '🧑🏻‍🎓: Ingeniero Informática desde 2014',
         '🏁: Full-Stack Developer con afición por el Frontend',
         '🤝🏻: Consultor en Amaris para Amaris, SGS, GTT y Grupo MasMovil',
-        '💪🏼: Senior Frontend Developer en Grupo MásMóvil desde finales 2021',
+        '💪🏼: Senior Frontend Developer en Grupo MásMóvil desde finales 2023',
         'Linkedin: frankglezhdez',
         'Twitter: FrankGlezhdez',
         'Github: caox2110',
