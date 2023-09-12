@@ -1,4 +1,4 @@
-import { codePaneThemes, SlideLayout, Notes } from 'spectacle'
+import { codePaneThemes, SlideLayout } from 'spectacle'
 import Back from '../../assets/images/back.png'
 
 const MultiCodeLayout = SlideLayout.MultiCodeLayout
@@ -65,8 +65,7 @@ export function GFRInitialize() {
             language: 'jsx',
             description: 'Ejecución de la inicialización',
             highlightRanges: [
-              [4, 8],
-              [5, 7],
+              [6, 7],
               [12, 17],
             ],
             theme: codePaneThemes.a11yDark,
