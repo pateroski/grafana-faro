@@ -14,7 +14,8 @@ export function AdvantagesOfUse() {
       titleProps={{ fontSize: '48px', textAlign: 'left' }}
       items={[
         <>
-          <Image width="30px" src={GrafanaLogo}></Image> Adopción dentro de la cultura tecnológica de la empresa de Grafana Cloud
+          <Image width="30px" src={GrafanaLogo}></Image> Adopción dentro de la cultura tecnológica
+          de la empresa de Grafana Cloud
         </>,
         <>
           <Image width="30px" src={OpenTelemetryLogo}></Image> Integración y uso de OpenTelemetry
@@ -23,7 +24,6 @@ export function AdvantagesOfUse() {
           <Image width="35px" src={WebVitals}></Image> Tipos de métricas de rendimiento, registros,
           excepciones, eventos y seguimientos. Ejemplo: Core Web Vitals, User Journey
         </>,
-        '🤸 Flexibilidad de personalizar los paneles de Grafana',
         '🏠 Centralización de la monitorización',
         <>
           <Image width="30px" src={React}></Image> Integración con React y uso de componentes adhoc
