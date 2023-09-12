@@ -42,7 +42,7 @@ export function WhatIsGFSDK2() {
                 alignItems: 'center',
               }}
             >
-              <Image src={Instrumentations} width="64px" />
+              <Image src={Instrumentations} width="128px" />
               <Text textAlign="center">Instrumentations</Text>
             </ListItem>
             <ListItem
@@ -53,7 +53,7 @@ export function WhatIsGFSDK2() {
                 alignItems: 'center',
               }}
             >
-              <Image src={OpenTelemetryLogo} width="64px" />
+              <Image src={OpenTelemetryLogo} width="128px" />
               <Text textAlign="center">tracing con opentelemetry-js</Text>
             </ListItem>
             <ListItem
@@ -64,7 +64,7 @@ export function WhatIsGFSDK2() {
                 alignItems: 'center',
               }}
             >
-              <Image src={Metas} width="64px" />
+              <Image src={Metas} width="128px" />
               <Text textAlign="center">Metas</Text>
             </ListItem>
           </UnorderedList>

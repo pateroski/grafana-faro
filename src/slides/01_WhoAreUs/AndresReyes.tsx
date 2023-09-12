@@ -12,15 +12,7 @@ export function AndresReyes() {
       position="left"
       title="Andrés Reyes Navas"
       titleProps={{ fontSize: '48px', textAlign: 'left' }}
-      listItems={[
-        '🧑🏻‍🎓: Ingeniero de Teleco: Telemática',
-        '🏁: Frontend Developer desde el 2015',
-        '🤝🏻: Clientes: BBVA, Mapfre, Redexis, Randstad, Edenred...',
-        '🙌🏻: Frontend Chapter Lead en Grupo MásMóvil desde finales 2021',
-        'Linkedin: andresreyesnavas',
-        'Twitter: pateroski',
-        'Github: pateroski',
-      ]}
+      listItems={['Linkedin: andresreyesnavas', 'Twitter: pateroski', 'Github: pateroski']}
     ></SlideLayout.VerticalImage>
   )
 }

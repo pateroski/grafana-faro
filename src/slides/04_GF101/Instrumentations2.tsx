@@ -16,7 +16,7 @@ export function Instrumentations2() {
           <Heading fontSize="48px" margin="0">
             Instrumentation<span style={{ fontSize: 36 }}>(error)</span>{' '}
           </Heading>
-          <Image src={Errors} width="64px" />
+          <Image src={Errors} width="128px" />
         </FlexBox>
         <UnorderedList>
           <ListItem>

@@ -22,7 +22,7 @@ export function TopicList() {
           <UnorderedList>
             <ListItem color="secondary">¿Qué le ofrece Grafana Faro a React?</ListItem>
             <ListItem color="secondary">
-              ¿Cómo implementamos el uso de Grafana Faro en React?
+              ¿Cómo configuramos el uso de Grafana Faro en React?
             </ListItem>
           </UnorderedList>
           <ListItem>Caso de Uso en MásMóvil: Agents</ListItem>

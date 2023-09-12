@@ -12,7 +12,7 @@ export function HowWeImplementGrafanaAndReactSection() {
         alignItems="flex-start"
       >
         <Heading textAlign="start" fontSize="64px">
-          ¿Cómo implementamos el uso de Grafana Faro en React?
+          ¿Cómo configuramos el uso de Grafana Faro en React?
         </Heading>
       </FlexBox>
     </Slide>

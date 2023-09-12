@@ -16,7 +16,7 @@ export function TracingSlide() {
           <Heading fontSize="48px" margin="0">
             Tracing
           </Heading>
-          <Image src={OpenTelemetryLogo} width="64px" />
+          <Image src={OpenTelemetryLogo} width="128px" />
         </FlexBox>
         <UnorderedList>
           <ListItem>

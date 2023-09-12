@@ -16,7 +16,7 @@ export function Instrumentations3() {
           <Heading fontSize="48px" margin="0">
             Instrumentation<span style={{ fontSize: 36 }}>(Web Vitals)</span>{' '}
           </Heading>
-          <Image src={Metrics} width="64px" />
+          <Image src={Metrics} width="128px" />
         </FlexBox>
         <UnorderedList>
           <ListItem>

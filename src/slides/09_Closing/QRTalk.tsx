@@ -13,7 +13,7 @@ export function QRTalkSlide() {
         alignItems="center"
       >
         <Heading textAlign="" fontSize="64px">
-          Slides 👾
+          Slides <span style={{ fontSize: '96px' }}>👾</span>
         </Heading>
         <Image src={QRTalk} />
       </FlexBox>

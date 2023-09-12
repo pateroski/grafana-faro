@@ -16,7 +16,7 @@ export function MetasSlide() {
           <Heading fontSize="48px" margin="0">
             Metas
           </Heading>
-          <Image src={Metas} width="64px" />
+          <Image src={Metas} width="128px" />
         </FlexBox>
         <UnorderedList>
           <ListItem>¿Qué son?</ListItem>

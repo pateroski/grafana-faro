@@ -12,7 +12,9 @@ export function GrafanaFaroDescription4() {
         justifyContent="center"
         alignItems="center"
       >
-        <Heading fontSize="64px">La observabilidad es 🤝🏻</Heading>
+        <Heading fontSize="64px">
+          La observabilidad es <span style={{ fontSize: '128px' }}>🤝🏻</span>
+        </Heading>
       </FlexBox>
       <Notes>
         <li>

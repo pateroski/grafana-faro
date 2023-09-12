@@ -17,35 +17,38 @@ export function OthersRUMS() {
         justifyContent="flex-start"
         alignItems="flex-start"
       >
-        <Heading fontSize="48px">Otros RUMs del Mercado</Heading>
+        <Heading fontSize="48px" margin="0px">
+          Otros RUMs del Mercado
+        </Heading>
         <UnorderedList
           animatedList
           style={{
             display: 'flex',
             listStyle: 'none',
-            justifyContent: 'space-around',
+            justifyContent: 'space-evenly',
             alignItems: 'center',
             height: '100%',
             width: '100%',
+            margin: '0px',
           }}
         >
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={AzureMonitor}></Image>
+              <Image width="128px" src={AzureMonitor}></Image>
             </Text>
             <Text textAlign="center">Azure Monitor</Text>
           </ListItem>
 
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={Sentry}></Image>
+              <Image width="128px" src={Sentry}></Image>
             </Text>
             <Text textAlign="center">Sentry</Text>
           </ListItem>
 
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={Datadog}></Image>
+              <Image width="128px" src={Datadog}></Image>
             </Text>
             <Text textAlign="center">Datadog</Text>
           </ListItem>
@@ -55,29 +58,30 @@ export function OthersRUMS() {
           style={{
             display: 'flex',
             listStyle: 'none',
-            justifyContent: 'space-around',
+            justifyContent: 'space-evenly',
             alignItems: 'center',
             height: '100%',
             width: '100%',
+            margin: '0px',
           }}
         >
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={NewRelic}></Image>
+              <Image width="128px" src={NewRelic}></Image>
             </Text>
             <Text textAlign="center">New Relic</Text>
           </ListItem>
 
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={Dynatrace}></Image>
+              <Image width="128px" src={Dynatrace}></Image>
             </Text>
             <Text textAlign="center">Dynatrace</Text>
           </ListItem>
 
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={ElasticObservability}></Image>
+              <Image width="128px" src={ElasticObservability}></Image>
             </Text>
             <Text textAlign="center">Elastic</Text>
           </ListItem>

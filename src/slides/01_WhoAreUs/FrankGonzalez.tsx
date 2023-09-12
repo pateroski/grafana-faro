@@ -12,15 +12,7 @@ export function FrankGonzalez() {
       position="right"
       title="Frank González Hernández"
       titleProps={{ fontSize: '48px', textAlign: 'left' }}
-      listItems={[
-        '🧑🏻‍🎓: Ingeniero Informática desde 2014',
-        '🏁: Full-Stack Developer con afición por el Frontend',
-        '🤝🏻: Consultor en Amaris para Amaris, SGS, GTT y Grupo MasMovil',
-        '💪🏼: Senior Frontend Developer en Grupo MásMóvil desde finales 2023',
-        'Linkedin: frankglezhdez',
-        'Twitter: FrankGlezhdez',
-        'Github: caox2110',
-      ]}
+      listItems={['Linkedin: frankglezhdez', 'Twitter: FrankGlezhdez', 'Github: caox2110']}
     ></SlideLayout.VerticalImage>
   )
 }

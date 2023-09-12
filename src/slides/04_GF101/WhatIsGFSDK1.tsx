@@ -43,7 +43,7 @@ export function WhatIsGFSDK1() {
                 alignItems: 'center',
               }}
             >
-              <Image src={Errors} width="64px" />
+              <Image src={Errors} width="80px" />
               <Text textAlign="center">Tracking de errores</Text>
               <Text textAlign="center" color="secondary" margin="0px">
                 (errors)
@@ -58,7 +58,7 @@ export function WhatIsGFSDK1() {
                 alignItems: 'center',
               }}
             >
-              <Image src={Metrics} width="64px" />
+              <Image src={Metrics} width="80px" />
               <Text textAlign="center">Monitorización Web Performance (CWV)</Text>
               <Text textAlign="center" color="secondary" margin="0px">
                 (measurements)
@@ -73,7 +73,7 @@ export function WhatIsGFSDK1() {
                 alignItems: 'center',
               }}
             >
-              <Image src={OpenTelemetryLogo} width="64px" />
+              <Image src={OpenTelemetryLogo} width="80px" />
               <Text textAlign="center">Trazas de la pila completa con OpenTelemetry</Text>
               <Text textAlign="center" color="secondary" margin="0px">
                 (traces)
@@ -100,7 +100,7 @@ export function WhatIsGFSDK1() {
                 alignItems: 'center',
               }}
             >
-              <Image src={Logs} width="64px" />
+              <Image src={Logs} width="80px" />
               <Text textAlign="center">Logs de consola para mayor contexto</Text>
               <Text textAlign="center" color="secondary" margin="0px">
                 (logs)
@@ -115,7 +115,7 @@ export function WhatIsGFSDK1() {
                 alignItems: 'center',
               }}
             >
-              <Image src={UserActivity} width="64px" />
+              <Image src={UserActivity} width="80px" />
               <Text textAlign="center">Tracking de la actividad del usuario</Text>
               <Text textAlign="center" color="secondary" margin="0px">
                 (events, session, view, page)

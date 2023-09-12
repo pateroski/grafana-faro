@@ -16,7 +16,7 @@ export function Instrumentations4() {
           <Heading fontSize="48px" margin="0">
             Instrumentation<span style={{ fontSize: 36 }}>(Session tracking)</span>{' '}
           </Heading>
-          <Image src={UserActivity} width="64px" />
+          <Image src={UserActivity} width="128px" />
         </FlexBox>
         <UnorderedList>
           <ListItem>

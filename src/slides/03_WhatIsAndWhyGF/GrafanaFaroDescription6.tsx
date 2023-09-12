@@ -24,19 +24,19 @@ export function GrafanaFaroDescription6() {
           }}
         >
           <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+            <Text textAlign="center" fontSize="128px" margin="0" padding="0">
               💨
             </Text>
             <Text textAlign="center">Muy fácil y rápida integración con ⚛️</Text>
           </ListItem>
           <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+            <Text textAlign="center" fontSize="128px" margin="0" padding="0">
               🔝
             </Text>
             <Text textAlign="center">Uso de OpenTelemetry para la captura de trazas</Text>
           </ListItem>
           <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+            <Text textAlign="center" fontSize="128px" margin="0" padding="0">
               💆🏻‍♂️
             </Text>
             <Text textAlign="center">Instrumentación automática y manual</Text>

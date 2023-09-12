@@ -12,7 +12,7 @@ export function ThanksSection() {
         alignItems="center"
       >
         <Heading textAlign="start" fontSize="64px">
-          ¡Gracias! ❤️
+          ¡Gracias! <span style={{ fontSize: '96px' }}>❤️</span>
         </Heading>
       </FlexBox>
     </Slide>

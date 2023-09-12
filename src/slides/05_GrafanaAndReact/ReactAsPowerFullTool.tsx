@@ -16,7 +16,9 @@ export function ReactAsPowerFullTool() {
         justifyContent="flex-start"
         alignItems="flex-start"
       >
-        <Heading fontSize="48px">React como herramienta poderosa</Heading>
+        <Heading fontSize="48px" margin="0px">
+          React como herramienta poderosa
+        </Heading>
         <UnorderedList
           animatedList
           style={{
@@ -30,19 +32,19 @@ export function ReactAsPowerFullTool() {
         >
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={Ecosystem}></Image>
+              <Image width="96px" src={Ecosystem}></Image>
             </Text>
             <Text textAlign="center">Ecosistema</Text>
           </ListItem>
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={Performance}></Image>
+              <Image width="96px" src={Performance}></Image>
             </Text>
             <Text textAlign="center">Rendimiento</Text>
           </ListItem>
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={Community}></Image>
+              <Image width="96px" src={Community}></Image>
             </Text>
             <Text textAlign="center">Comunidad</Text>
           </ListItem>
@@ -60,13 +62,13 @@ export function ReactAsPowerFullTool() {
         >
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={State}></Image>
+              <Image width="96px" src={State}></Image>
             </Text>
             <Text textAlign="center">Manejo del Estado</Text>
           </ListItem>
           <ListItem>
             <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="70px" src={Code}></Image>
+              <Image width="96px" src={Code}></Image>
             </Text>
             <Text textAlign="center">Paradigma de hooks</Text>
           </ListItem>

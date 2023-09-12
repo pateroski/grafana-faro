@@ -16,7 +16,7 @@ export function Instrumentations1() {
           <Heading fontSize="48px" margin="0">
             Instrumentation<span style={{ fontSize: 36 }}>(console)</span>{' '}
           </Heading>
-          <Image src={Logs} width="64px" />
+          <Image src={Logs} width="128px" />
         </FlexBox>
         <UnorderedList>
           <ListItem>

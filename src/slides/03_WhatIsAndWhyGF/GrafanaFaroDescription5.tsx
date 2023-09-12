@@ -24,19 +24,19 @@ export function GrafanaFaroDescription5() {
           }}
         >
           <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+            <Text textAlign="center" fontSize="128px" margin="0" padding="0">
               📈
             </Text>
             <Text textAlign="center">Complejidad de las aplicaciones frontend ha incrementado</Text>
           </ListItem>
           <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+            <Text textAlign="center" fontSize="128px" margin="0" padding="0">
               🫥
             </Text>
             <Text textAlign="center">Entorno en el que se ejecutan los navegadores aislado</Text>
           </ListItem>
           <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
+            <Text textAlign="center" fontSize="128px" margin="0" padding="0">
               🗣️
             </Text>
             <Text textAlign="center">
