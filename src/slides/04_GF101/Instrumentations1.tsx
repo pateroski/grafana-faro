@@ -25,13 +25,14 @@ export function Instrumentations1() {
           <ListItem>
             Clase que lo implementa: <CodeSpan color="secondary">ConsoleInstrumentation</CodeSpan>
           </ListItem>
+          <ListItem>
+            Envío manual: <CodeSpan color="secondary">faro.api.pushLog</CodeSpan> (logs)
+          </ListItem>
           <ListItem>¿Qué es lo que hace?</ListItem>
           <UnorderedList>
             <ListItem color="secondary">
-              Implementación custom de <CodeSpan>console</CodeSpan>
-            </ListItem>
-            <ListItem color="secondary">
-              Envía por defecto todos los <CodeSpan>console.error</CodeSpan>
+              Implementación custom de <CodeSpan>console</CodeSpan> (
+              <CodeSpan>console.error</CodeSpan>)
             </ListItem>
           </UnorderedList>
           <ListItem>¿Para qué nos sirve?</ListItem>

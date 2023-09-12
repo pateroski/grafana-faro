@@ -1,54 +1,59 @@
-import { codePaneThemes, SlideLayout } from 'spectacle'
+import { CodeSpan, FlexBox, Heading, Image, ListItem, Slide, UnorderedList } from 'spectacle'
 import Back from '../../assets/images/back.png'
+import OpenTelemetryLogo from '../../assets/images/OpenTelemetryLogo.png'
 
 export function TracingSlide() {
   return (
-    <SlideLayout.MultiCodeLayout
-      numColumns={1}
-      backgroundImage={`url(${Back})`}
-      title={
-        <>
-          Tracing<span style={{ fontSize: 36 }}>(OpenTelemetry)</span>
-        </>
-      }
-      titleProps={{ fontSize: '48px', textAlign: 'left' }}
-      codeBlocks={[
-        {
-          code: `
-          import { TracingInstrumentation } from '@grafana/faro-web-tracing';
-          import { getWebInstrumentations, initializeFaro } from '@grafana/faro-web-sdk';
-
-          initializeFaro({
-            // Mandatory, the URL of the Grafana Cloud collector with embedded application key.
-            // Copy from the configuration page of your application in Grafana.
-            url: 'http://faro-collector-us-central-0.grafana.net/collect/{app-key}',
-
-            // Mandatory, the identification label(s) of your application
-            app: {
-              name: 'my-app',
-              version: '1.0.0', // Optional, but recommended
-            },
-
-            instrumentations: [
-              // Mandatory, overwriting the instrumentations array would cause the default instrumentations to be omitted
-              ...getWebInstrumentations(),
-
-              // Mandatory, initialization of the tracing package
-              new TracingInstrumentation({
-                instrumentationOptions: {
-                  // Requests to these URLs will have tracing headers attached.
-                  propagateTraceHeaderCorsUrls: [new RegExp('https://foo.com/*'), 'https://bar.com'],
-                },
-              }),
-            ],
-          });
-  `,
-          language: 'jsx',
-          description: 'Necesaria configuración manual',
-          highlightRanges: [[1, 2], [15], [17], [20, 25]],
-          theme: codePaneThemes.a11yDark,
-        },
-      ]}
-    ></SlideLayout.MultiCodeLayout>
+    <Slide backgroundImage={`url(${Back})`}>
+      <FlexBox
+        width="100%"
+        height="100%"
+        flexDirection="column"
+        alignItems="flex-start"
+        justifyContent="flex-start"
+      >
+        <FlexBox width="100%" alignItems="center" justifyContent="flex-start">
+          <Heading fontSize="48px" margin="0">
+            Tracing
+          </Heading>
+          <Image src={OpenTelemetryLogo} width="64px" />
+        </FlexBox>
+        <UnorderedList>
+          <ListItem>
+            Clase que lo implementa: <CodeSpan color="secondary">TracingInstrumentation</CodeSpan>
+          </ListItem>
+          <ListItem>
+            Instrumentaciones que incluye:{' '}
+            <CodeSpan color="secondary">
+              User Interaction, Document Load, Fetch, XMLHttpRequest
+            </CodeSpan>
+          </ListItem>
+          <ListItem>
+            Envío manual: <CodeSpan color="secondary">faro.api.pushTraces()</CodeSpan> (traces)
+          </ListItem>
+          <ListItem>¿Qué es lo que hace?</ListItem>
+          <UnorderedList>
+            <ListItem color="secondary">
+              Envío de trazas a <CodeSpan>Tempo</CodeSpan> donde se captura un flujo de datos
+              derivado de una interacción de usuario
+            </ListItem>
+            <ListItem color="secondary">
+              Envío de una gran cantidad de datos por cada interacción que implique comunicación
+              frontend-backend para un análisis exhaustivo
+            </ListItem>
+          </UnorderedList>
+          <ListItem>¿Para qué nos sirve?</ListItem>
+          <UnorderedList>
+            <ListItem color="secondary">
+              Tracking de llamadas a la backend API desde la interacción del usuario hasta la
+              respuesta HTTP
+            </ListItem>
+            <ListItem color="secondary">
+              Habilitar en prod en los casos que sea necesario (envío de datos elevado)
+            </ListItem>
+          </UnorderedList>
+        </UnorderedList>
+      </FlexBox>
+    </Slide>
   )
 }
