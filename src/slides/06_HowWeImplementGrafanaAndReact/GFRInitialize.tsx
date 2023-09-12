@@ -57,14 +57,18 @@ export function GFRInitialize() {
             }
 
             const faroLog = () => faro.api.pushLog(['Faro was initialized'])
-            return { faroConfig, faroLog, faroApi: faro.api }
+            return { faroConfig, faroLog, faroApi: faro.api, createSession }
           }
         `,
           },
           {
             language: 'jsx',
             description: 'Ejecución de la inicialización',
-            highlightRanges: [[4, 8], [6], [7], [12, 16]],
+            highlightRanges: [
+              [4, 8],
+              [5, 7],
+              [12, 17],
+            ],
             theme: codePaneThemes.a11yDark,
             code: `
             export const Routes = observer(() => {
@@ -83,6 +87,7 @@ export function GFRInitialize() {
                     email: agent.email,
                     username: agent.userName,
                   })
+                  faroApi.setSession(createSession({ id: agent.id }))
                 }
               }, [isAuthenticated, agent])
 
