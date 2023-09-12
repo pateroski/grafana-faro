@@ -11,7 +11,6 @@ export function AdvantagesOfUse() {
     <SlideLayout.List
       backgroundImage={`url(${Back})`}
       title="Ventajas"
-      animateListItems
       titleProps={{ fontSize: '48px', textAlign: 'left' }}
       items={[
         <>

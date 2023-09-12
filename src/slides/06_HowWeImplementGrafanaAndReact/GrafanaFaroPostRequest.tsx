@@ -88,7 +88,7 @@ export function GrafanaFaroPostRequest() {
             theme: codePaneThemes.a11yDark,
             code: `
             "session": {
-              "id": "w4EwbssgS8"
+              "id": "{id_agent}"
             }
         `,
           },

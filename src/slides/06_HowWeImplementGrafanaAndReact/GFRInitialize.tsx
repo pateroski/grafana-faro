@@ -14,7 +14,7 @@ export function GFRInitialize() {
           {
             language: 'jsx',
             description: 'Definición del hook con la configuración inicial de Grafana Faro',
-            highlightRanges: [[4], [16, 38], [18], [19, 23], [25], [26], [27, 35], [40], [41]],
+            highlightRanges: [[4], [16, 38], [18], [19, 23], [25], [26], [27, 35]],
             theme: codePaneThemes.a11yDark,
             code: `
           import { Route } from 'react-router-dom'
