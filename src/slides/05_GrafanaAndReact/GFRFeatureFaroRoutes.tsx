@@ -15,7 +15,6 @@ export function GFRFeatureFaroRoutes() {
       codeBlocks={[
         {
           code: `
-          // V6
           import { FaroRoutes } from '@grafana/faro-react';
 
           // during render
@@ -23,8 +22,14 @@ export function GFRFeatureFaroRoutes() {
             <Route path="/" element={<Home />} />
             {/* ... */}
           </FaroRoutes>;
-
-          // V4/v5
+  `,
+          language: 'jsx',
+          description: 'React Router V6',
+          highlightRanges: [4, 7],
+          theme: codePaneThemes.a11yDark,
+        },
+        {
+          code: `
           import { FaroRoute } from '@grafana/faro-react';
 
           // during render
@@ -36,30 +41,8 @@ export function GFRFeatureFaroRoutes() {
           </Switch>;
   `,
           language: 'jsx',
-          description: 'Manejando Rutas de la aplicación',
-          highlightRanges: [[2], [5, 8], [11], [15, 17]],
-          theme: codePaneThemes.a11yDark,
-        },
-        {
-          code: `
-          import { ReactIntegration, ReactRouterVersion } from '@grafana/faro-react'
-
-          instrumentations: [
-            ...
-            new ReactIntegration({
-              router: {
-                version: ReactRouterVersion.V5,
-                dependencies: {
-                  history,
-                  Route,
-                },
-              },
-            }),
-          ],
-  `,
-          language: 'jsx',
-          description: 'Instrumentación de Enrutador',
-          highlightRanges: [[1], [5, 13]],
+          description: 'React Router V5',
+          highlightRanges: [5, 7],
           theme: codePaneThemes.a11yDark,
         },
       ]}
