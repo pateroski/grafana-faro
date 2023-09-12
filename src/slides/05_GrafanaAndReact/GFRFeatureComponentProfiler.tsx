@@ -15,8 +15,18 @@ export function GFRFeatureComponentProfiler() {
         <Heading fontSize="48px">
           Analizador de Componente <span style={{ fontSize: 36 }}>(Component Profiler)</span>
         </Heading>
-        <CodePane language="jsx" highlightRanges={[[1], [7]]} theme={codePaneThemes.a11yDark}>
-          {`
+        <div
+          style={{
+            position: 'absolute',
+            top: '45%',
+            left: '40%',
+          }}
+        >
+          <Image src={GFRProfiler} width="800px"></Image>
+        </div>
+        <Appear priority={-1}>
+          <CodePane language="jsx" highlightRanges={[7]} theme={codePaneThemes.a11yDark}>
+            {`
               import { withFaroProfiler } from '@grafana/faro-react';
 
               const ClientForm = observer(() => {
@@ -25,17 +35,7 @@ export function GFRFeatureComponentProfiler() {
 
               export default withFaroProfiler(ClientForm);
       `}
-        </CodePane>
-        <Appear>
-          <div
-            style={{
-              position: 'absolute',
-              top: '30%',
-              left: '10%',
-            }}
-          >
-            <Image src={GFRProfiler} width="70rem"></Image>
-          </div>
+          </CodePane>
         </Appear>
       </FlexBox>
       <Notes>
