@@ -1,14 +1,4 @@
-import {
-  Appear,
-  FlexBox,
-  Heading,
-  Image,
-  ListItem,
-  Notes,
-  Slide,
-  Text,
-  UnorderedList,
-} from 'spectacle'
+import { FlexBox, Heading, Image, ListItem, Notes, Slide, Text, UnorderedList } from 'spectacle'
 import Back from '../../assets/images/back.png'
 import Instrumentations from '../../assets/icons/instrumentation.svg'
 import Metas from '../../assets/icons/metaIcon.png'
@@ -44,45 +34,39 @@ export function WhatIsGFSDK2() {
               padding: '0',
             }}
           >
-            <Appear>
-              <ListItem
-                style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                }}
-              >
-                <Image src={Instrumentations} width="64px" />
-                <Text textAlign="center">Instrumentations</Text>
-              </ListItem>
-            </Appear>
-            <Appear>
-              <ListItem
-                style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                }}
-              >
-                <Image src={OpenTelemetryLogo} width="64px" />
-                <Text textAlign="center">tracing con opentelemetry-js</Text>
-              </ListItem>
-            </Appear>
-            <Appear>
-              <ListItem
-                style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                }}
-              >
-                <Image src={Metas} width="64px" />
-                <Text textAlign="center">Metas</Text>
-              </ListItem>
-            </Appear>
+            <ListItem
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <Image src={Instrumentations} width="64px" />
+              <Text textAlign="center">Instrumentations</Text>
+            </ListItem>
+            <ListItem
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <Image src={OpenTelemetryLogo} width="64px" />
+              <Text textAlign="center">tracing con opentelemetry-js</Text>
+            </ListItem>
+            <ListItem
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <Image src={Metas} width="64px" />
+              <Text textAlign="center">Metas</Text>
+            </ListItem>
           </UnorderedList>
         </FlexBox>
       </FlexBox>
