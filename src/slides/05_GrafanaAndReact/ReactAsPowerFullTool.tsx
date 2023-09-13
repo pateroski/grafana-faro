@@ -4,7 +4,6 @@ import Ecosystem from '../../assets/icons/ecosystem.svg'
 import Performance from '../../assets/icons/performance.png'
 import Community from '../../assets/icons/community.png'
 import State from '../../assets/icons/state.svg'
-import Code from '../../assets/icons/code.png'
 
 export function ReactAsPowerFullTool() {
   return (
@@ -66,12 +65,6 @@ export function ReactAsPowerFullTool() {
             </Text>
             <Text textAlign="center">Manejo del Estado</Text>
           </ListItem>
-          <ListItem>
-            <Text textAlign="center" fontSize="64px" margin="0" padding="0">
-              <Image width="96px" src={Code}></Image>
-            </Text>
-            <Text textAlign="center">Paradigma de hooks</Text>
-          </ListItem>
         </UnorderedList>
       </FlexBox>
       <Notes>
@@ -102,13 +95,6 @@ export function ReactAsPowerFullTool() {
           estaba Redux, y antes de Redux, estaba el viejo paso unidireccional de accesorios. Por lo
           que decidieron en la libertad para considerar una gran variedad de opciones de gestión
           estatal y elegir la que tenga más sentido, context, redux y rxjs
-        </li>
-        <li>
-          Cuando comenzaron el desarrollo, primero comenzaron con component class y después
-          surgieron los hooks y los componentes funcionales. Debido al cambio algunos
-          desarrolladores han expresado su frustración con los hooks porque introducen cierres
-          obsoletos y requieren aprender y dominar las reglas de los hooks. Los componentes
-          funcionales, como se les llama, rara vez son funciones puras.
         </li>
       </Notes>
     </Slide>
