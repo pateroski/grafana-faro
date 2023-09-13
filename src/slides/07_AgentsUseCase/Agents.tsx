@@ -18,13 +18,12 @@ export function Agents() {
         </FlexBox>
       </FlexBox>
       <Notes>
-        <li>Listado de Aplicaciones</li>
-        <li>
-          Esta página le ayuda a administrar las aplicaciones que utiliza para enviar datos a
-          Grafana Cloud. Esta página nos podemos ver todas las aplicaciones que has creado, filtrar
-          aplicaciones por nombre y crear, editar y eliminar las aplicaciones
-        </li>
         <li>Detalle de Rendimiento de la Aplicación</li>
+        <li>
+          Web Vitals tiene valores saludables (verde) Las cargas de página no tienen picos (bajos o
+          altos) Los errores son 0 o están por debajo de un umbral esperado Los gráficos P75 no
+          tienen picos
+        </li>
         <li>
           Podemos ver un conjunto de paneles que le dan una idea de cómo se está funcionando la
           aplicación dentro del rango de tiempo y los filtros aplicados
@@ -77,9 +76,8 @@ export function Agents() {
         </li>
         <li>Web Vitals 75p Timeseries</li>
         <li>
-          Aquí se puede ver una distribución del percentil 75 de todos los Web Vitals divididos en:
-          Carga de página: TTFB, FCP, LCP Cambio de diseño acumulativo: CLS, Retraso de la primera
-          entrada: FID
+          Estos gráficos se utilizan para identificar problemas con su aplicación y ampliar ventanas
+          de tiempo específicas.
         </li>
         <li>Errors page</li>
         <li>
