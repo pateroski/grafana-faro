@@ -12,9 +12,7 @@ export function Agents() {
         justifyContent="flex-start"
         alignItems="flex-start"
       >
-        <Heading fontSize="48px">
-          Portal de Ventas Agents
-        </Heading>
+        <Heading fontSize="48px">Portal de Ventas Agents</Heading>
         <FlexBox width="100%" height="100%">
           <Image src={AgentsImg} width="1000px"></Image>
         </FlexBox>
@@ -60,6 +58,11 @@ export function Agents() {
           usuario ya que mide la capacidad de respuesta de la carga y cuantifica la experiencia que
           sienten los usuarios cuando intentan interactuar con páginas que no responden, una FID
           baja ayuda a garantizar que la página sea utilizable. (100 - 300)
+        </li>
+        <li>
+          INT (Interation to Next Paint): mide la capacidad de respuesta de una página a los largo
+          de todas las interacciones, observando la latencia de todas las interacciones calificadas
+          que ocurren durante la vida útil de la visita de un usuario
         </li>
         <li>Page Loads</li>
         <li>
