@@ -69,50 +69,50 @@ function App() {
   return (
     <Deck template={<DefaultTemplate color="#3F3F3F" />} theme={theme}>
       <TitleSlide />
-      <ThanksTo />
+      {/* <ThanksTo />
       <WhoAreUs />
       <FrankGonzalez />
       <AndresReyes />
-      <Topics />
+      <Topics /> */}
       <TopicList />
       <WhatIsGFSection />
-      <GrafanaFaroDescription1 />
-      <GrafanaFaroDescription2 />
-      <GrafanaFaroDescription3 />
+      {/* <GrafanaFaroDescription1 />
+      <GrafanaFaroDescription2 /> */}
       <GrafanaFaroDiagram />
+      <GrafanaFaroDescription3 />
       <WhyGFSection />
       <GrafanaFaroDescription4 />
-      <GrafanaFaroDescription5 />
-      <GrafanaFaroDescription6 />
+      {/* <GrafanaFaroDescription5 />
+      <GrafanaFaroDescription6 /> */}
       <GrafanaFaro101Section />
       <WhatIsGFSDKSection />
       <WhatIsGFSDK1 />
       <WhatIsGFSDK2 />
-      <Instrumentations1 />
+      {/* <Instrumentations1 />
       <Instrumentations2 />
       <Instrumentations3 />
       <Instrumentations4 />
       <Instrumentations5 />
       <TracingSlide />
-      <MetasSlide />
+      <MetasSlide /> */}
       <GrafanaAndReactSection />
-      <WhyReact />
+      {/* <WhyReact />
       <ReactAsPowerFullTool />
-      <FaroReactPackage />
+      <FaroReactPackage /> */}
       <GFRFeatureErrorBoundaries />
       <GFRFeatureComponentProfiler />
       <GFRFeatureFaroRoutes />
       <GFRDemo />
       <HowWeImplementGrafanaAndReactSection />
       <GFRInitialize />
-      <GrafanaFaroPostRequest />
+      {/* <GrafanaFaroPostRequest /> */}
       <CasoUsoAgentsSection />
       <Agents />
       <GrafanaAdvantagesSection />
-      <OthersRUMS />
+      {/* <OthersRUMS /> */}
       <AdvantagesOfUse />
       <QuestionsSection />
-      <QRTalkSlide />
+      {/* <QRTalkSlide /> */}
       <ThanksSection />
     </Deck>
   )
