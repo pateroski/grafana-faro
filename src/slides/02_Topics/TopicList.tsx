@@ -16,15 +16,16 @@ export function TopicList() {
           <ListItem>¿Qué es y por qué usar Grafana Faro?</ListItem>
           <ListItem>Grafana Faro 101</ListItem>
           <UnorderedList>
-            <ListItem color="secondary">Grafana Faro Web SDK</ListItem>
+            <ListItem color="secondary">¿Qué nos permite observar en Grafana Faro?</ListItem>
+            <ListItem color="secondary">¿Qué herramientas utilizamos?</ListItem>
           </UnorderedList>
-          <ListItem>Grafana Faro y React</ListItem>
+          {/* <ListItem>Grafana Faro y React</ListItem>
           <UnorderedList>
             <ListItem color="secondary">¿Qué le ofrece Grafana Faro a React?</ListItem>
             <ListItem color="secondary">
               ¿Cómo configuramos el uso de Grafana Faro en React?
             </ListItem>
-          </UnorderedList>
+          </UnorderedList> */}
           <ListItem>Caso de Uso en MásMóvil: Agents</ListItem>
           <ListItem>¿Qué ventajas nos ofrece Grafana Faro?</ListItem>
         </UnorderedList>

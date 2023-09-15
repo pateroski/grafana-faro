@@ -11,7 +11,7 @@ export function TitleSlide() {
           <Image src={GrafanaFaroLogo}></Image> Grafana Faro:
         </Heading>
         <Heading fontSize="header" margin="0px">
-          RUM with <Image src={OpenTelemetryLogo} width="70px"></Image> for ⚛️ Apps
+          Frontend Obserbavility for Dummies
         </Heading>
       </FlexBox>
       <Notes>

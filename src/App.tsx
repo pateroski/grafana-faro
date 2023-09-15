@@ -73,17 +73,18 @@ function App() {
       <WhoAreUs />
       <FrankGonzalez />
       <AndresReyes />
-      <Topics /> */}
+       */}
+      <Topics />
       <TopicList />
       <WhatIsGFSection />
-      {/* <GrafanaFaroDescription1 />
-      <GrafanaFaroDescription2 /> */}
+      <GrafanaFaroDescription1 />
+      <GrafanaFaroDescription2 />
       <GrafanaFaroDiagram />
       <GrafanaFaroDescription3 />
       <WhyGFSection />
       <GrafanaFaroDescription4 />
-      {/* <GrafanaFaroDescription5 />
-      <GrafanaFaroDescription6 /> */}
+      <GrafanaFaroDescription5 />
+      <GrafanaFaroDescription6 />
       <GrafanaFaro101Section />
       <WhatIsGFSDKSection />
       <WhatIsGFSDK1 />
@@ -94,17 +95,18 @@ function App() {
       <Instrumentations4 />
       <Instrumentations5 />
       <TracingSlide />
-      <MetasSlide /> */}
-      <GrafanaAndReactSection />
+       */}
+      <MetasSlide />
+      {/* <GrafanaAndReactSection /> */}
       {/* <WhyReact />
       <ReactAsPowerFullTool />
       <FaroReactPackage /> */}
-      <GFRFeatureErrorBoundaries />
-      <GFRFeatureComponentProfiler />
-      <GFRFeatureFaroRoutes />
-      <GFRDemo />
-      <HowWeImplementGrafanaAndReactSection />
-      <GFRInitialize />
+      {/* <GFRFeatureErrorBoundaries /> */}
+      {/* <GFRFeatureComponentProfiler /> */}
+      {/* <GFRFeatureFaroRoutes /> */}
+      {/* <GFRDemo /> */}
+      {/* <HowWeImplementGrafanaAndReactSection /> */}
+      {/* <GFRInitialize /> */}
       {/* <GrafanaFaroPostRequest /> */}
       <CasoUsoAgentsSection />
       <Agents />
